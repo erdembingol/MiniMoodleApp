@@ -1,0 +1,2 @@
+module SessionsTeacherHelper
+end

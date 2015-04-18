@@ -1,0 +1,15 @@
+<%= link_to :Login , :login, class: "nav_links"%>
+<%= link_to :Signup , :signup, class: "nav_links"%>
+
+<h1>Log in</h1>
+<%= form_tag(:action => 'login_control') do %>
+    <p>
+      Student Number: <%= text_field_tag(:student_number) %>
+    </p>
+
+    <p>
+      Password: <%= password_field_tag(:password) %>
+    </p>
+
+    <%= submit_tag("Log In") %>
+<% end %>

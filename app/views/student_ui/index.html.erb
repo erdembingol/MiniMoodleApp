@@ -1,0 +1,22 @@
+<%= link_to :'Home', :controller => :student_ui,  :action => :index %><br>
+<%= link_to :'My Profile', :controller => :student_ui,  :action => :my_profile %><br>
+<%= link_to :'Edit Profile', :controller => :student_ui,  :action => :edit_profile %><br>
+<%= link_to :'All Courses', :controller => :student_ui,  :action => :all_courses %><br>
+<%= link_to :'My Courses', :controller => :student_ui,  :action => :my_courses %><br>
+
+<%= link_to :'Logout', :controller => :sessions,  :action => :logout %><br>
+
+<h1> My Courses </h1>
+
+<% @my_courses.each do |course| %>
+    <p>
+      Course No : <%= course.course_no %>
+    </p>
+    <p>
+      Course Name : <%= course.course_name %>
+    </p>
+    <p>
+      Teacher Name : <%= course.teacher_name %>
+    </p>
+    <hr>
+<% end %>
