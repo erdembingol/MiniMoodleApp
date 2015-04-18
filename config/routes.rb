@@ -49,6 +49,9 @@ Rails.application.routes.draw do
   get 'MyCourses', :to => 'student_ui#my_courses'
   post 'MyCourses', :to => 'student_ui#my_courses'
 
+  get 'Course', :to => 'student_ui#course'
+  post 'Course', :to => 'student_ui#course'
+
   get 'AllCourses', :to => 'student_ui#all_courses'
   post 'AllCourses', :to => 'student_ui#all_courses'
 

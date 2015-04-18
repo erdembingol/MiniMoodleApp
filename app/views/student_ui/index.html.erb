@@ -10,13 +10,13 @@
 
 <% @my_courses.each do |course| %>
     <p>
-      Course No : <%= course.course_no %>
+      Course No : <%= course.no %>
     </p>
     <p>
-      Course Name : <%= course.course_name %>
+      Course Name : <%= course.name %>
     </p>
     <p>
-      Teacher Name : <%= course.teacher_name %>
+      Teacher Name : <%= Teacher.find(course.teacher_no).name %>
     </p>
     <hr>
 <% end %>

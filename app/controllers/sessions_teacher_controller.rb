@@ -1,4 +1,5 @@
 class SessionsTeacherController < ApplicationController
+
   def index
     redirect_to url_for(:controller => :sessions_teacher, :action => :login_teacher)
   end
@@ -42,4 +43,5 @@ class SessionsTeacherController < ApplicationController
       render 'signup_teacher'
     end
   end
+
 end

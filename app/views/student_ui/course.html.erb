@@ -7,20 +7,25 @@
 
 <%= link_to :'Logout', :controller => :sessions,  :action => :logout %><br>
 
-<% @course.each do |c| %>
-    <p>
-        Course Name : <%= c.name %>
-    </p>
-    <p>
-        Course Explain : <%= c.explain %>
-    </p>
-<% end %>
+<p>
+  Course No : <%= @course.no %>
+</p>
+<p>
+    Course Name : <%= @course.name %>
+</p>
+<p>
+    Course Explain : <%= @course.explain %>
+</p>
+
+<h1>Lectures</h1>
 
 <% @lectures.each do |lecture| %>
     <p>
         <%= lecture.name %>
     </p>
 <% end %>
+
+<h1>Projects</h1>
 
 <% @projects.each do |project| %>
     <p>
