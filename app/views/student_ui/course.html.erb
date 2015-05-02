@@ -3,7 +3,7 @@
 <%= link_to :'Edit Profile', :controller => :student_ui,  :action => :edit_profile %><br>
 <%= link_to :'All Courses', :controller => :student_ui,  :action => :all_courses %><br>
 <%= link_to :'My Courses', :controller => :student_ui,  :action => :my_courses %><br>
-<%= link_to :'Grades', :controller => :student_ui,  :action => :grades %><br>
+<%= link_to :'Grades', :controller => :student_ui,  :action => :grades, :course_id => @course.id %><br>
 
 <%= link_to :'Logout', :controller => :sessions,  :action => :logout %><br>
 
@@ -33,11 +33,13 @@
     </p>
 
     <p>
-      Project Explain : <%= project.explain %>
+        Project Explain : <%= project.explain %>
     </p>
 
     <% @files.each do |file| %>
-        <%= file.name if file.project_no == project.id %>
+        <% if file.project_no == project.id.to_s %>
+            File Name : <%= file.name %><br>
+        <% end %>
     <% end %>
 <% end %>
 

@@ -20,15 +20,15 @@ class StudentUiController < ApplicationController
 
       @lectures = Record.find_by_sql "SELECT r.*
                                       FROM records r, course_lecture_to_files cltf
-                                      WHERE cltf.course_no = '#{@course.no}' and cltf.file_no = r.id"
+                                      WHERE cltf.course_no = '#{@course.id}' and cltf.file_no = r.id"
 
       @projects = Project.find_by_sql "SELECT p.*
                                        FROM projects p, course_to_projects ctp
-                                       WHERE ctp.project_no = p.id and ctp.course_no = '#{@course.no}'"
+                                       WHERE ctp.project_no = p.id and ctp.course_no = '#{@course.id}'"
 
       @files = Record.find_by_sql "SELECT r.name, r.path, ptf.project_no
                                    FROM records r, project_to_files ptf, course_to_projects ctp
-                                   WHERE ctp.course_no = '#{@course.no}' and ctp.project_no = ptf.project_no and ptf.file_no = r.id"
+                                   WHERE ctp.course_no = '#{@course.id}' and ctp.project_no = ptf.project_no and ptf.file_no = r.id"
   end
 
   def my_profile
@@ -58,10 +58,17 @@ class StudentUiController < ApplicationController
   end
 
   def grades
-
+    @grades = Grade.all
+    @result = 0;
+    #@grades.each { |grade| @result += grade.to_f }
   end
 
   def enrol
+    @enrol = Enrol.new
+    @enrol.student_no = session[:student_id]
+    @enrol.course_no = params[:course_no]
 
+    @enrol.save
+    redirect_to url_for(:controller => :student_ui, :action => :all_courses)
   end
 end

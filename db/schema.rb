@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150418091425) do
+ActiveRecord::Schema.define(version: 20150502141837) do
 
   create_table "course_lecture_to_files", force: true do |t|
     t.text     "course_no"
@@ -47,6 +47,22 @@ ActiveRecord::Schema.define(version: 20150418091425) do
     t.text     "no"
     t.text     "teacher_no"
     t.text     "explain"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "enrols", force: true do |t|
+    t.text     "student_no"
+    t.text     "course_no"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "grades", force: true do |t|
+    t.text     "student_no"
+    t.text     "course_no"
+    t.text     "project_no"
+    t.text     "grade"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
