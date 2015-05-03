@@ -11,7 +11,7 @@
 <% @my_courses.each do |course| %>
     <p>
       Course No : <%= course.no %>
-      <%= link_to :"#{course.no}", :controller => :student_ui,  :action => :course, :course_no => course.no %><br>
+      <%= link_to :"#{course.no}", :controller => :student_ui, :action => :course, :course_no => course.no %><br>
     </p>
     <p>
       Course Name : <%= course.name %>

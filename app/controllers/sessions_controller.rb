@@ -43,43 +43,4 @@ class SessionsController < ApplicationController
           render 'signup'
       end
   end
-
-  # def login_teacher
-  #
-  # end
-  #
-  # def login_teacher_control
-  #     @teacher = Teacher.authenticate(params[:email], params[:password])
-  #     if @teacher
-  #         session[:user_id] = @teacher.id
-  #         flash[:notice] = "Welcome again, you logged in #{@teacher.name}"
-  #         redirect_to url_for(:controller => :teacher_ui, :action => :index)
-  #     else
-  #         flash[:notice] = 'Invalid Username or Password'
-  #         flash[:color]= 'invalid'
-  #         render 'login_teacher'
-  #     end
-  # end
-  #
-  # def signup_teacher
-  #     @teacher = Teacher.new
-  # end
-  #
-  # def signup_teacher_control
-  #     @teacher = Teacher.new
-  #     @teacher.name = params[:name]
-  #     @teacher.password = params[:password]
-  #     @teacher.profil_image = params[:profil_image]
-  #     @teacher.email = params[:email]
-  #     if @teacher.save
-  #         redirect_to url_for(:controller => :teacher_ui, :action => :index), :notice => "User was saved"
-  #     else
-  #         render 'signup_teacher'
-  #     end
-  # end
-  #
-  # private
-  # def student_params
-  #   params.require(:student).permit(:email, :name, :password, :profil_image, :student_number)
-  # end
 end

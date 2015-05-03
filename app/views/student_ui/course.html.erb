@@ -3,12 +3,12 @@
 <%= link_to :'Edit Profile', :controller => :student_ui,  :action => :edit_profile %><br>
 <%= link_to :'All Courses', :controller => :student_ui,  :action => :all_courses %><br>
 <%= link_to :'My Courses', :controller => :student_ui,  :action => :my_courses %><br>
-<%= link_to :'Grades', :controller => :student_ui,  :action => :grades, :course_id => @course.id %><br>
+<%= link_to :'Grades', :controller => :student_ui,  :action => :grades %><br>
 
 <%= link_to :'Logout', :controller => :sessions,  :action => :logout %><br>
 
 <p>
-  Course No : <%= @course.no %>
+    Course No : <%= @course.no %>
 </p>
 <p>
     Course Name : <%= @course.name %>
@@ -17,15 +17,16 @@
     Course Explain : <%= @course.explain %>
 </p>
 
-<h1>Lectures</h1>
+<h3>Lectures</h3>
 
 <% @lectures.each do |lecture| %>
     <p>
         <%= lecture.name %>
+        <%= link_to :"#{lecture.name}", :controller => :student_ui, :action => :downloadFile, :name => lecture.name %>
     </p>
 <% end %>
 
-<h1>Projects</h1>
+<h3>Projects</h3>
 
 <% @projects.each do |project| %>
     <p>
@@ -39,8 +40,26 @@
     <% @files.each do |file| %>
         <% if file.project_no == project.id.to_s %>
             File Name : <%= file.name %><br>
+            <%= link_to :"#{file.name}", :controller => :student_ui, :action => :downloadFile, :name => file.name %>
         <% end %>
     <% end %>
+
+    <% @uploadedFile = Upload.find_by_project_no(project.id) %>
+    <% if @uploadedFile %>
+        Uploaded File : <%= @uploadedFile.file_name %>
+        <%= link_to :"#{@uploadedFile.file_name}", :controller => :student_ui, :action => :downloadFile, :name => @uploadedFile.file_name %>
+    <% else %>
+        <h3>File Upload</h3>
+        <%= form_tag({:action => 'uploadFile'}, :multipart => true) do %>
+            <p><label for="upload_file">Select File</label> : <%= file_field 'upload', 'datafile' %></p>
+            <%= hidden_field_tag 'project_id', project.id %>
+            <%= submit_tag "Upload" %>
+        <% end %>
+    <% end %>
+
+    <hr>
 <% end %>
+
+
 
 

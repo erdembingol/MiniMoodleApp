@@ -4,8 +4,6 @@ Rails.application.routes.draw do
   resources :student_ui
   resources :teacher_ui
 
-  #root :to => 'sessions#index'
-
   get ':controller(/:action(/:id))(.:format)'
   post ':controller(/:action(/:id(.:format)))'
 
@@ -63,6 +61,9 @@ Rails.application.routes.draw do
 
   get 'Grades', :to => 'student_ui#grades'
   post 'Grades', :to => 'student_ui#grades'
+
+  get 'DownloadFile', :to => 'student_ui#downloadFile'
+  post 'DownloadFile', :to => 'student_ui#downloadFile'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

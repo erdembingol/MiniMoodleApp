@@ -6,9 +6,10 @@
 
 <%= link_to :'Logout', :controller => :sessions,  :action => :logout %><br>
 
-<% @grades.each do |g| %>
+<% @grades.each do |gr| %>
     <p>
-      Project Grade : <%= g.grade %>
+      Project Grade : <%= gr.grade if gr.student_no == session[:student_id] and gr.course_no == session[:course_id].to_s %>
+                      <% @result += gr.grade.to_f if gr.student_no == session[:student_id] and gr.course_no == session[:course_id].to_s %>
     </p>
 <% end %>
 

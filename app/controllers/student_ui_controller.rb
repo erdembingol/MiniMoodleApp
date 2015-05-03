@@ -29,6 +29,8 @@ class StudentUiController < ApplicationController
       @files = Record.find_by_sql "SELECT r.name, r.path, ptf.project_no
                                    FROM records r, project_to_files ptf, course_to_projects ctp
                                    WHERE ctp.course_no = '#{@course.id}' and ctp.project_no = ptf.project_no and ptf.file_no = r.id"
+
+      session[:course_id] = @course.id
   end
 
   def my_profile
@@ -60,7 +62,6 @@ class StudentUiController < ApplicationController
   def grades
     @grades = Grade.all
     @result = 0;
-    #@grades.each { |grade| @result += grade.to_f }
   end
 
   def enrol
@@ -71,4 +72,43 @@ class StudentUiController < ApplicationController
     @enrol.save
     redirect_to url_for(:controller => :student_ui, :action => :all_courses)
   end
+
+  def uploadFile
+    upload = params[:upload]
+    name =  upload['datafile'].original_filename
+    directory = "app/public/data"
+    # create the file path
+    path = File.join(directory, name)
+    # write the file
+    File.open(path, "wb") { |f| f.write(upload['datafile'].read) }
+
+    @upload = Upload.new
+    @upload.student_no = session[:student_id]
+    @upload.course_no = session[:course_id]
+    @upload.project_no = params[:project_id]
+    @upload.file_name = name
+    @upload.file_path = 'app/public/data/' + name
+    @upload.save
+
+    #render :text => "File has been uploaded successfully"
+    redirect_to url_for(:controller => :student_ui, :action => :my_courses)
+  end
+
+  def downloadFile
+    temp = params[:name].to_s.split('.');
+    send_file(
+        "#{Rails.root}/app/public/data/" + params[:name],
+        filename: params[:name],
+        type: "application/" + temp[1]
+    )
+  end
+
+  # def downloadFile
+  #   @records = Record.all
+  #   @records.each do |record|
+  #       temp = record.path.split('.')
+  #       record.name = record.name + '.' + temp[1]
+  #       record.save
+  #   end
+  # end
 end
