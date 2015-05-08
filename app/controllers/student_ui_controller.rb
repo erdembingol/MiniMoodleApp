@@ -65,12 +65,26 @@ class StudentUiController < ApplicationController
   end
 
   def enrol
-    @enrol = Enrol.new
-    @enrol.student_no = session[:student_id]
-    @enrol.course_no = params[:course_no]
+    puts params[:course_no]
+    puts session[:student_id]
+    @cts = CourseToStudent.find_by_sql "SELECT * FROM course_to_students cts
+                                      WHERE cts.course_no = '#{params[:course_no]}' and cts.student_no = '#{session[:student_id]}'"
+    @enrolll = Enrol.find_by_sql "SELECT * FROM enrols e
+                                WHERE e.course_no = '#{params[:course_no]}' and e.student_no = '#{session[:student_id]}'"
 
-    @enrol.save
-    redirect_to url_for(:controller => :student_ui, :action => :all_courses)
+    if @cts.at(0).nil? && @enrolll.at(0).nil?
+      @enrol = Enrol.new
+      @enrol.student_no = session[:student_id]
+      @enrol.course_no = params[:course_no]
+
+      if @enrol.save
+        redirect_to url_for(:controller => :student_ui, :action => :my_courses)
+      else
+        render 'all_courses'
+      end
+    else
+      redirect_to url_for(:controller => :student_ui, :action => :all_courses)
+    end
   end
 
   def uploadFile
@@ -103,12 +117,4 @@ class StudentUiController < ApplicationController
     )
   end
 
-  # def downloadFile
-  #   @records = Record.all
-  #   @records.each do |record|
-  #       temp = record.path.split('.')
-  #       record.name = record.name + '.' + temp[1]
-  #       record.save
-  #   end
-  # end
 end

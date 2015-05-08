@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   resources :sessions
+  resources :sessions_teacher
   resources :student_ui
   resources :teacher_ui
 
@@ -40,6 +41,7 @@ Rails.application.routes.draw do
   get 'logout_teacher', :to => 'sessions_teacher#logout_teacher'
   post 'logout_teacher', :to => 'sessions_teacher#logout_teacher'
 
+  ######################################################################################################################
 
   get 'Home', :to => 'student_ui#index'
   post 'Home', :to => 'student_ui#index'
@@ -64,6 +66,44 @@ Rails.application.routes.draw do
 
   get 'DownloadFile', :to => 'student_ui#downloadFile'
   post 'DownloadFile', :to => 'student_ui#downloadFile'
+
+  get 'Enrol', :to => 'student_ui#enrol'
+  post 'Enrol', :to => 'student_ui#enrol'
+
+  ######################################################################################################################
+
+  get 'Home', :to => 'teacher_ui#index'
+  post 'Home', :to => 'teacher_ui#index'
+
+  get 'My Profile', :to => 'teacher_ui#my_profile'
+  post 'My Profile', :to => 'teacher_ui#my_profile'
+
+  get 'Edit Profile', :to => 'teacher_ui#edit_profile'
+  post 'Edit Profile', :to => 'teacher_ui#edit_profile'
+
+  get 'Enrol List', :to => 'teacher_ui#enrol_list'
+  post 'Enrol List', :to => 'teacher_ui#enrol_list'
+
+  get 'Download File', :to => 'teacher_ui#download_file'
+  post 'Download File', :to => 'teacher_ui#download_file'
+
+  get 'Add Project', :to => 'teacher_ui#add_project'
+  post 'Add Project', :to => 'teacher_ui#add_project'
+
+  get 'Grading', :to => 'teacher_ui#grading'
+  post 'Grading', :to => 'teacher_ui#grading'
+
+  get 'Create new course', :to => 'teacher_ui#create_new_course'
+  post 'Create new course', :to => 'teacher_ui#create_new_course'
+
+  get 'Accept', :to => 'teacher_ui#accept_enrol'
+  post 'Accept', :to => 'teacher_ui#accept_enrol'
+
+  get 'Accept All', :to => 'teacher_ui#accept_all_enrol'
+  post 'Accept All', :to => 'teacher_ui#accept_all_enrol'
+
+  get 'Grade', :to => 'teacher_ui#grade'
+  post 'Grade', :to => 'teacher_ui#grade'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

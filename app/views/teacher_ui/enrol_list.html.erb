@@ -1,0 +1,21 @@
+<%= link_to :'Home', :controller => :teacher_ui,  :action => :index %><br>
+<%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %><br>
+<%= link_to :'Edit Profile', :controller => :teacher_ui,  :action => :edit_profile %><br>
+<%= link_to :'Enrol List', :controller => :teacher_ui,  :action => :enrol_list %><br>
+<%= link_to :'Grading', :controller => :teacher_ui,  :action => :grading %><br>
+
+<%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %><br>
+
+<h3>Enrol List</h3>
+<% if @enrol_list.length > 0 %>
+<p><%= link_to :'Accept All', :controller => :teacher_ui, :action => :accept_all_enrol %></p>
+<% end %>
+
+<% @enrol_list.each do |enrol| %>
+    <p>
+      Course No : <%= enrol.course_no %><br>
+      <% @student = Student.find_by_student_number(enrol.student_no) %>
+      Student Name : <%= @student.name %> <%= link_to :'Accept', :controller => :teacher_ui, :action => :accept_enrol, :student_no => enrol.student_no, :course_no => enrol.course_no %><br>
+    </p>
+    <hr>
+<% end %>

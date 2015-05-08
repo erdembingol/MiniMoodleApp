@@ -1,1 +1,66 @@
+<%= link_to :'Home', :controller => :teacher_ui,  :action => :index %><br>
+<%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %><br>
+<%= link_to :'Edit Profile', :controller => :teacher_ui,  :action => :edit_profile %><br>
+<%= link_to :'Enrol List', :controller => :teacher_ui,  :action => :enrol_list %><br>
+<%= link_to :'Grading', :controller => :teacher_ui,  :action => :grading %><br>
+
 <%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %><br>
+
+<% if @course %>
+
+<p>
+  Course No : <%= @course.no %>
+</p>
+<p>
+  Course Name : <%= @course.name %>
+</p>
+<p>
+  Course Explain : <%= @course.explain %>
+</p>
+
+<h3>Lectures</h3>
+
+<% @lectures.each do |lecture| %>
+    <p>
+      <%= lecture.name %>
+      <%= link_to :"#{lecture.name}", :controller => :teacher_ui, :action => :download_file, :name => lecture.name %>
+    </p>
+<% end %>
+
+<%= form_tag({:action => 'upload_lecture_file'}, :multipart => true) do %>
+    <p><label for="upload_file">Select File</label> : <%= file_field 'upload', 'datafile' %></p>
+    <%= submit_tag "Upload" %>
+<% end %>
+
+<h3>Projects</h3>
+
+<% @projects.each do |project| %>
+    <p>
+      Project Name : <%= project.name %>
+    </p>
+
+    <p>
+      Project Explain : <%= project.explain %>
+    </p>
+
+    <% @files.each do |file| %>
+        <% if file.project_no == project.id.to_s %>
+            File Name : <%= file.name %><br>
+            <%= link_to :"#{file.name}", :controller => :teacher_ui, :action => :download_file, :name => file.name %>
+        <% end %>
+    <% end %>
+
+    <%= form_tag({:action => 'upload_project_file'}, :multipart => true) do %>
+        <p><label for="upload_file">Select File</label> : <%= file_field 'upload', 'datafile' %></p>
+        <%= hidden_field_tag 'project_id', project.id %>
+        <%= submit_tag "Upload" %>
+    <% end %>
+
+    <hr>
+<% end %>
+
+<%= link_to :'Add Project', :controller => :teacher_ui,  :action => :add_project %><br>
+
+<% else %>
+<p><%= link_to :'Create new course', :controller => :teacher_ui,  :action => :create_new_course %><br></p>
+<% end %>

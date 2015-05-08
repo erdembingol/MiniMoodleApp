@@ -1,0 +1,16 @@
+<%= link_to :'Home', :controller => :teacher_ui,  :action => :index %><br>
+<%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %><br>
+<%= link_to :'Edit Profile', :controller => :teacher_ui,  :action => :edit_profile %><br>
+<%= link_to :'Enrol List', :controller => :teacher_ui,  :action => :enrol_list %><br>
+<%= link_to :'Grading', :controller => :teacher_ui,  :action => :grading %><br>
+
+<%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %><br>
+
+<% @students.each do |student| %>
+    <p>
+      <%= image_tag(student.profil_image, :size => "64x64", :alt => "Show Group") %><br>
+      Student Number : <%= student.student_number %><br>
+      Student Name : <%= student.name %> <%= link_to :'Grade', :controller => :teacher_ui, :action => :grade, :student_no => student.student_number, :course_no => @course.no %><br>
+    </p>
+    <hr>
+<% end %>

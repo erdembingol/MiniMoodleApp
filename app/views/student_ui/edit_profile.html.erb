@@ -9,7 +9,7 @@
 <h1>Update Profile</h1>
 <%= form_tag(:action => 'edit_profile_control') do %>
     <p>
-      Profile Image : <%= text_field_tag(:profil_image, @student.profil_image) %>
+      Profile Image : <%= image_tag(@student.profil_image, :size => "64x64", :alt => "Show Group") %> <%= file_field_tag(:profil_image) %>
     </p>
 
     <p>
