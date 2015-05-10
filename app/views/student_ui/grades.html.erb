@@ -1,19 +1,57 @@
-<%= link_to :'Home', :controller => :student_ui,  :action => :index %><br>
-<%= link_to :'My Profile', :controller => :student_ui,  :action => :my_profile %><br>
-<%= link_to :'Edit Profile', :controller => :student_ui,  :action => :edit_profile %><br>
-<%= link_to :'All Courses', :controller => :student_ui,  :action => :all_courses %><br>
-<%= link_to :'My Courses', :controller => :student_ui,  :action => :my_courses %><br>
+<div class="menu">
+    <ul>
+        <li><%= link_to :'Home', :controller => :student_ui,  :action => :index %></li>
+        <li><%= link_to :'My Profile', :controller => :student_ui,  :action => :my_profile %></li>
+        <li><%= link_to :'Edit Profile', :controller => :student_ui,  :action => :edit_profile %></li>
+        <li><%= link_to :'All Courses', :controller => :student_ui,  :action => :all_courses %></li>
+        <li><%= link_to :'My Courses', :controller => :student_ui,  :action => :my_courses %></li>
+        <li><%= link_to :'Logout', :controller => :sessions,  :action => :logout %></li>
+    </ul>
+</div>
+<br clear="left"/>
+<br><br><br>
 
-<%= link_to :'Logout', :controller => :sessions,  :action => :logout %><br>
-
-<% @grades.each do |gr| %>
-    <p>
-      Project Grade : <%= gr.grade if gr.student_no == session[:student_id] and gr.course_no == session[:course_id].to_s %>
-                      <% @result += gr.grade.to_f if gr.student_no == session[:student_id] and gr.course_no == session[:course_id].to_s %>
-    </p>
+<% @course_to_student_notes.each do |ctsn| %>
+  <% if ctsn.student_no == session[:student_id] and ctsn.course_no == session[:course_id] %>
+    <% @result = ctsn.note %>
+    <% @date = ctsn.created_at %>
+  <% end %>
 <% end %>
 
-<p>
-  Result : <%= @result %>
-</p>
+<table border="1">
+    <caption>Course and Project Grade for <i><strong><%= Course.find(session[:course_id]).name %></strong></i></caption>
+    <tr>
+        <th>Project Name</th>
+        <th>Grade</th>
+        <th>Created Date</th>
+    </tr>
+
+    <% @grades.each do |gr| %>
+        <% if gr.student_no == session[:student_id] and gr.course_no == session[:course_id].to_s %>
+            <tr>
+                <td><%= Project.find(gr.project_no).name %></td>
+                <td><%= gr.grade if gr.student_no == session[:student_id] and gr.course_no == session[:course_id].to_s %></td>
+                <td><%= Project.find(gr.project_no).created_at %></td>
+            </tr>
+        <% end %>
+    <% end %>
+
+    <tr>
+        <td><b>Course Grade</b></td>
+        <td>
+            <% if !@result.nil? %>
+                <%= @result %>
+            <% else %>
+                <b>Not Graded</b>
+            <% end %>
+        </td>
+        <td>
+            <% if !@date.nil? %>
+                <%= @date %>
+            <% else %>
+                <b></b>
+            <% end %>
+        </td>
+    </tr>
+</table>
 

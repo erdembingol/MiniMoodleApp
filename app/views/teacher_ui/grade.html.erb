@@ -1,8 +1,77 @@
-<%= link_to :'Home', :controller => :teacher_ui,  :action => :index %><br>
-<%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %><br>
-<%= link_to :'Edit Profile', :controller => :teacher_ui,  :action => :edit_profile %><br>
-<%= link_to :'Enrol List', :controller => :teacher_ui,  :action => :enrol_list %><br>
-<%= link_to :'Grading', :controller => :teacher_ui,  :action => :grading %><br>
+<div class="menu">
+  <ul>
+    <li><%= link_to :'Home', :controller => :teacher_ui,  :action => :index %></li>
+    <li><%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %></li>
+    <li><%= link_to :'Edit Profile', :controller => :teacher_ui,  :action => :edit_profile %></li>
+    <li><%= link_to :'Enrol List', :controller => :teacher_ui,  :action => :enrol_list %></li>
+    <li><%= link_to :'Grading', :controller => :teacher_ui,  :action => :grading %></li>
+    <li><%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %></li>
+  </ul>
+</div>
+<br clear="left"/>
+<br><br><br>
 
-<%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %><br>
+
+<% @course_to_student_notes.each do |ctsn| %>
+    <% if ctsn.student_no == @student.student_number and ctsn.course_no == @course.id.to_s %>
+        <% @result = ctsn.note %>
+    <% end %>
+<% end %>
+
+<div class="blogs">
+  <ul>
+    <li>
+      <div>
+        <%= image_tag(@student.profil_image, :size => "64x64", :alt => "Show Group") %>
+        <br><b><%= @student.student_number %> - <%= @student.name %></b>
+        <p>
+          <%= @student.email %>
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<h2><b>Projects</b></h2>
+<div class="blogs">
+  <ul>
+    <% @projects.zip(@grades).each do |project, grade| %>
+        <li>
+          <div>
+            <span class="time"> <%= project.created_at %> </span>
+            <h4><b><%= project.name %><br></b></h4>
+            <p>
+              <%= project.explain %>
+            </p>
+            <% @uploadedFile = Upload.find_by_project_no(project.id) %>
+            <% if @uploadedFile %>
+                <br><%= link_to :"#{@uploadedFile.file_name}", :controller => :student_ui, :action => :downloadFile, :name => @uploadedFile.file_name %><br>
+            <% else %>
+                <br>File not uploaded<br>
+            <% end %>
+            <% if grade.nil? %>
+                <% @g = 'Not Graded' %>
+            <% else %>
+                <% @g = grade.grade %>
+            <% end %>
+            <%= @g %><br>
+            <%= link_to :'Edit', :controller => :teacher_ui, :action => :edit_grade, :course_no => @course.id, :student_no => @student.student_number, :project_no => project.id, :grade => @g %><br>
+          </div>
+        </li>
+    <% end %>
+    <li>
+      <div>
+        <% if @result.nil? %>
+            <h4><b>Course Note :</b></h4> Not Graded<br>
+        <% else %>
+            <h4><b>Course Note :</b></h4> <%= @result %><br>
+        <% end %>
+        <%= link_to :'Edit Course Note', :controller => :teacher_ui, :action => :edit_course_note, :course_no => @course.id, :student_no => @student.student_number %><br>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+
 

@@ -82,7 +82,81 @@ class TeacherUiController < ApplicationController
   end
 
   def grade
-    
+    @course = Course.find_by_teacher_no(session[:teacher_id])
+
+    @student = Student.find_by_student_number(params[:student_no])
+
+    @projects = Project.find_by_sql "SELECT DISTINCT p.*
+                                     FROM projects p, course_to_projects ctp
+                                     WHERE ctp.project_no = p.id and ctp.course_no = '#{@course.id}'"
+
+    @grades = Grade.find_by_sql "SELECT g.*
+                                 FROM grades g
+                                 WHERE g.course_no = '#{@course.id}' and g.student_no = '#{params[:student_no]}'"
+
+    @course_to_student_notes = CourseToStudentNote.all
+  end
+
+  def edit_grade
+    @course_no = params[:course_no]
+    @student_no = params[:student_no]
+    @project_no = params[:project_no]
+    @grade = params[:grade]
+
+    puts @course_no
+    puts @student_no
+    puts @project_no
+    puts @grade
+  end
+
+  def update_grade
+    puts params[:course_no]
+    puts params[:student_no]
+    puts params[:project_no]
+    puts params[:grade_old]
+    puts params[:grade_new]
+
+    if params[:grade_old].eql?('Not Graded')
+      @grade = Grade.new
+      @grade.course_no = params[:course_no]
+      @grade.student_no = params[:student_no]
+      @grade.project_no = params[:project_no]
+      @grade.grade = params[:grade_new]
+      @grade.save
+    else
+      @grade = Grade.find_by_sql "SELECT g.*
+                                  FROM grades g
+                                  WHERE g.course_no = '#{params[:course_no]}' and g.student_no = '#{params[:student_no]}' and
+                                        g.project_no = '#{params[:project_no]}' and g.grade = '#{params[:grade_old]}'"
+
+      if !params[:grade_new].eql?('')
+        @grade[0].grade = params[:grade_new]
+      end
+      @grade[0].save
+    end
+
+    redirect_to url_for(:controller => :teacher_ui, :action => :grade, :student_no => params[:student_no])
+  end
+
+  def edit_course_note
+    @course_no = params[:course_no]
+    @student_no = params[:student_no]
+  end
+
+  def update_course_note
+    @del = CourseToStudentNote.find_by_sql "SELECT * FROM course_to_student_notes ctsn
+                                     WHERE ctsn.student_no = '#{params[:student_no]}' and ctsn.course_no = '#{params[:course_no]}'"
+    if !@del[0].nil?
+      CourseToStudentNote.delete(@del[0].id)
+    end
+
+    @ctsn = CourseToStudentNote.new
+    @ctsn.student_no = params[:student_no]
+    @ctsn.course_no = params[:course_no]
+    @ctsn.note = params[:course_note]
+    @ctsn.save
+
+    redirect_to url_for(:controller => :teacher_ui, :action => :grade, :student_no => params[:student_no])
   end
 
   def create_new_course

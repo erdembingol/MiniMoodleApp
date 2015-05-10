@@ -11,23 +11,14 @@
 <br clear="left"/>
 <br><br><br>
 
+<div class="container">
+  <%= form_tag(:action => 'update_course_note') do %>
+      <label>Enter course note:</label>
+      <%= text_field_tag(:course_note) %>
 
-<%= image_tag(@teacher.profil_image, :size => "64x64", :alt => "Show Group") %>
+      <%= hidden_field_tag :student_no, @student_no %>
+      <%= hidden_field_tag :course_no, @course_no %>
 
-<div class="container_big">
-  <%= form_tag(:action => 'edit_profile_control') do %>
-      <label>Profil Image:</label>
-      <%= file_field_tag(:profil_image) %>
-
-      <label>Name:</label>
-      <%= text_field_tag :name, @teacher.name %>
-
-      <label>E-mail:</label>
-      <%= text_field_tag :email, @teacher.email %>
-
-      <label>Password:</label>
-      <%= password_field_tag :password, @teacher.password %>
-
-      <%= submit_tag('Update') %>
+      <%= submit_tag("Update") %>
   <% end %>
 </div>

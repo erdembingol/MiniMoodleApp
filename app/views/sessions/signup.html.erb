@@ -1,27 +1,27 @@
-<%= link_to :Login , :login, class: "nav_links"%>
-<%= link_to :Signup , :signup, class: "nav_links"%>
+<div class="menu">
+    <ul>
+        <li><%= link_to :Login , :login, class: "nav_links"%></li>
+        <li><%= link_to :Signup , :signup, class: "nav_links"%></li>
+    </ul>
+</div>
 
-<h1>Sign Up</h1>
-<%= form_tag(:action => 'signup_control') do %>
-    <p>
-      Profil Image : <%= file_field_tag(:profil_image) %>
-    </p>
+<div class="container_big">
+    <%= form_tag(:action => 'signup_control') do %>
+        <label>Student Number:</label>
+        <%= text_field_tag(:student_number) %>
 
-    <p>
-      Student Number: <%= text_field_tag(:student_number) %>
-    </p>
+        <label>Name:</label>
+        <%= text_field_tag(:name) %>
 
-    <p>
-      Name: <%= text_field_tag(:name) %>
-    </p>
+        <label>Password:</label>
+        <%= password_field_tag(:password) %>
 
-    <p>
-      Password: <%= password_field_tag(:password) %>
-    </p>
+        <label>E-mail:</label>
+        <%= text_field_tag(:email) %>
 
-    <p>
-      E-mail: <%= text_field_tag(:email) %>
-    </p>
+        <label>Profil Image:</label>
+        <%= file_field_tag(:profil_image) %>
 
-    <%= submit_tag("Sign Up") %>
-<% end %>
+        <%= submit_tag("Sign Up") %>
+    <% end %>
+</div>

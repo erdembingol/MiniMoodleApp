@@ -12,22 +12,16 @@
 <br><br><br>
 
 
-<%= image_tag(@teacher.profil_image, :size => "64x64", :alt => "Show Group") %>
+<div class="container">
+  <%= form_tag(:action => 'update_grade') do %>
+      <label>Enter new grade:</label>
+      <%= text_field_tag(:grade_new) %>
 
-<div class="container_big">
-  <%= form_tag(:action => 'edit_profile_control') do %>
-      <label>Profil Image:</label>
-      <%= file_field_tag(:profil_image) %>
+      <%= hidden_field_tag :student_no, @student_no %>
+      <%= hidden_field_tag :course_no, @course_no %>
+      <%= hidden_field_tag :project_no, @project_no %>
+      <%= hidden_field_tag :grade_old, @grade %>
 
-      <label>Name:</label>
-      <%= text_field_tag :name, @teacher.name %>
-
-      <label>E-mail:</label>
-      <%= text_field_tag :email, @teacher.email %>
-
-      <label>Password:</label>
-      <%= password_field_tag :password, @teacher.password %>
-
-      <%= submit_tag('Update') %>
+      <%= submit_tag("Update") %>
   <% end %>
 </div>

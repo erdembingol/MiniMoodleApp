@@ -1,6 +1,6 @@
 class StudentUiController < ApplicationController
   def index
-    @my_courses = Course.find_by_sql("SELECT c.no, c.name, c.teacher_no
+    @my_courses = Course.find_by_sql("SELECT c.no, c.name, c.teacher_no, c.explain, c.created_at
                                       FROM courses c, course_to_students cts
                                       WHERE cts.course_no = c.no and cts.student_no = '#{session[:student_id]}'")
   end
@@ -10,7 +10,7 @@ class StudentUiController < ApplicationController
   end
 
   def my_courses
-      @my_courses = Course.find_by_sql("SELECT c.no, c.name, c.teacher_no
+      @my_courses = Course.find_by_sql("SELECT c.no, c.name, c.teacher_no, c.explain, c.created_at
                                         FROM courses c, course_to_students cts
                                         WHERE cts.course_no = c.no and cts.student_no = '#{session[:student_id]}'")
   end
@@ -60,8 +60,11 @@ class StudentUiController < ApplicationController
   end
 
   def grades
+    @projects = Project.all
     @grades = Grade.all
-    @result = 0;
+    @course_to_student_notes = CourseToStudentNote.all
+    # @course_to_student_notes = CourseToStudentNote.find_by_sql "SELECT * FROM course_to_student_notes ctsn
+    #                                                             WHERE ctsn.course_no = '#{session[:course_id]}' and ctsn.student_no = '#{session[:student_id]}'"
   end
 
   def enrol

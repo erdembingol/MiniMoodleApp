@@ -1,20 +1,25 @@
-<%= link_to :'Home', :controller => :teacher_ui,  :action => :index %><br>
-<%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %><br>
-<%= link_to :'Edit Profile', :controller => :teacher_ui,  :action => :edit_profile %><br>
-<%= link_to :'Enrol List', :controller => :teacher_ui,  :action => :enrol_list %><br>
-<%= link_to :'Grading', :controller => :teacher_ui,  :action => :grading %><br>
+<div class="menu">
+  <ul>
+    <li><%= link_to :'Home', :controller => :teacher_ui,  :action => :index %></li>
+    <li><%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %></li>
+    <li><%= link_to :'Edit Profile', :controller => :teacher_ui,  :action => :edit_profile %></li>
+    <li><%= link_to :'Enrol List', :controller => :teacher_ui,  :action => :enrol_list %></li>
+    <li><%= link_to :'Grading', :controller => :teacher_ui,  :action => :grading %></li>
+    <li><%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %></li>
+  </ul>
+</div>
+<br clear="left"/>
+<br><br><br>
 
-<%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %><br>
 
-<h1>Add Project</h1>
-<%= form_tag(:action => 'add_project_control') do %>
-    <p>
-      Name : <%= text_field_tag(:name) %>
-    </p>
+<div class="container">
+  <%= form_tag(:action => 'add_project_control') do %>
+      <label>Name:</label>
+      <%= text_field_tag(:name) %>
 
-    <p>
-      Explain : <%= text_field_tag(:explain) %>
-    </p>
+      <label>Explain:</label>
+      <%= text_field_tag(:explain) %>
 
-    <%= submit_tag("Add") %>
-<% end %>
+      <%= submit_tag("Add") %>
+  <% end %>
+</div>

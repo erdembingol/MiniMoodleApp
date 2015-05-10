@@ -105,6 +105,12 @@ Rails.application.routes.draw do
   get 'Grade', :to => 'teacher_ui#grade'
   post 'Grade', :to => 'teacher_ui#grade'
 
+  get 'Edit', :to => 'teacher_ui#edit_grade'
+  post 'Edit', :to => 'teacher_ui#edit_grade'
+
+  get 'Edit Course Note', :to => 'teacher_ui#edit_course_note'
+  post 'Edit Course Note', :to => 'teacher_ui#edit_course_note'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,65 +1,78 @@
-<%= link_to :'Home', :controller => :student_ui,  :action => :index %><br>
-<%= link_to :'My Profile', :controller => :student_ui,  :action => :my_profile %><br>
-<%= link_to :'Edit Profile', :controller => :student_ui,  :action => :edit_profile %><br>
-<%= link_to :'All Courses', :controller => :student_ui,  :action => :all_courses %><br>
-<%= link_to :'My Courses', :controller => :student_ui,  :action => :my_courses %><br>
-<%= link_to :'Grades', :controller => :student_ui,  :action => :grades %><br>
+<div class="menu">
+    <ul>
+        <li><%= link_to :'Home', :controller => :student_ui,  :action => :index %>
+        <li><%= link_to :'My Profile', :controller => :student_ui,  :action => :my_profile %>
+        <li><%= link_to :'Edit Profile', :controller => :student_ui,  :action => :edit_profile %>
+        <li><%= link_to :'All Courses', :controller => :student_ui,  :action => :all_courses %>
+        <li><%= link_to :'My Courses', :controller => :student_ui,  :action => :my_courses %>
+        <li><%= link_to :'Grades', :controller => :student_ui,  :action => :grades %>
+        <li><%= link_to :'Logout', :controller => :sessions,  :action => :logout %>
+    </ul>
+</div>
+<br clear="left"/>
+<br><br><br>
 
-<%= link_to :'Logout', :controller => :sessions,  :action => :logout %><br>
+<div class="blogs">
+    <ul>
+        <li>
+            <div>
+                <span class="time"> <%= @course.created_at %> </span>
+                    <h1><b><%= @course.no %> - <%= @course.name %></b></h1>
+                <p>
+                    <%= @course.explain %>
+                </p>
+            </div>
+        </li>
+    </ul>
+</div>
 
-<p>
-    Course No : <%= @course.no %>
-</p>
-<p>
-    Course Name : <%= @course.name %>
-</p>
-<p>
-    Course Explain : <%= @course.explain %>
-</p>
+<h2><b> Lectures </b></h2>
+<div class="blogs">
+    <ul>
+        <li>
+          <% @lectures.each do |lecture| %>
+            <div>
+                <span class="time"> <%= lecture.created_at %> </span>
+                <%= link_to :"#{lecture.name}", :controller => :student_ui, :action => :downloadFile, :name => lecture.name %><br>
+            </div>
+          <% end %>
+        </li>
+    </ul>
+</div>
 
-<h3>Lectures</h3>
+<h2><b> Projects </b></h2>
+<div class="blogs">
+  <ul>
+    <% @projects.each do |project| %>
+        <li>
+          <div>
+                <span class="time"> <%= project.created_at %> </span>
+                <h4><b><%= project.name %></b></h4>
+                <p>
+                  <%= project.explain %>
+                </p>
 
-<% @lectures.each do |lecture| %>
-    <p>
-        <%= lecture.name %>
-        <%= link_to :"#{lecture.name}", :controller => :student_ui, :action => :downloadFile, :name => lecture.name %>
-    </p>
-<% end %>
+                <% @files.each do |file| %>
+                    <% if file.project_no == project.id.to_s %>
+                        <%= link_to :"#{file.name}", :controller => :student_ui, :action => :downloadFile, :name => file.name %>
+                    <% end %>
+                <% end %>
 
-<h3>Projects</h3>
-
-<% @projects.each do |project| %>
-    <p>
-        Project Name : <%= project.name %>
-    </p>
-
-    <p>
-        Project Explain : <%= project.explain %>
-    </p>
-
-    <% @files.each do |file| %>
-        <% if file.project_no == project.id.to_s %>
-            File Name : <%= file.name %><br>
-            <%= link_to :"#{file.name}", :controller => :student_ui, :action => :downloadFile, :name => file.name %>
-        <% end %>
+                <% @uploadedFile = Upload.find_by_project_no(project.id) %>
+                <% if @uploadedFile %>
+                    <br><br><b>Uploaded File :</b> <%= link_to :"#{@uploadedFile.file_name}", :controller => :student_ui, :action => :downloadFile, :name => @uploadedFile.file_name %>
+                    &nbsp;<sub>( <%= @uploadedFile.created_at %> )</sub>
+                <% else %>
+                    <br>
+                    <%= form_tag({:action => 'uploadFile'}, :multipart => true) do %>
+                        <%= file_field 'upload', 'datafile' %>
+                        <%= hidden_field_tag 'project_id', project.id %>
+                        <%= submit_tag "Upload" %>
+                    <% end %>
+                <% end %>
+          </div>
+        </li>
     <% end %>
-
-    <% @uploadedFile = Upload.find_by_project_no(project.id) %>
-    <% if @uploadedFile %>
-        Uploaded File : <%= @uploadedFile.file_name %>
-        <%= link_to :"#{@uploadedFile.file_name}", :controller => :student_ui, :action => :downloadFile, :name => @uploadedFile.file_name %>
-    <% else %>
-        <h3>File Upload</h3>
-        <%= form_tag({:action => 'uploadFile'}, :multipart => true) do %>
-            <p><label for="upload_file">Select File</label> : <%= file_field 'upload', 'datafile' %></p>
-            <%= hidden_field_tag 'project_id', project.id %>
-            <%= submit_tag "Upload" %>
-        <% end %>
-    <% end %>
-
-    <hr>
-<% end %>
-
-
-
+  </ul>
+</div>
 
