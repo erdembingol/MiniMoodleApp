@@ -8,10 +8,13 @@
         <li><%= link_to :'Logout', :controller => :sessions,  :action => :logout %></li>
     </ul>
 </div>
+<%= image_tag(Student.find_by_student_number(session[:student_id]).profil_image, :size => "50x50", :alt => "Show Group", :style => "float:right;margin-right:10px;margin-top:10px;") %>
+<p style="float:right;margin-right:-50px;margin-top:70px;"><b><%= Student.find_by_student_number(session[:student_id]).name %></b></p>
 <br clear="left"/>
 <br><br><br>
-
-<h1><b>My Courses</b></h1>
+<hr>
+<div style="margin-left: 250px;margin-right: 250px;">
+<h1 style="background-color: #D4D5D6;padding-top: 15px;"><b> &nbsp;&nbsp;&nbsp;My Courses</b></h1>
 
 <div class="blogs">
   <ul>
@@ -19,16 +22,17 @@
         <li>
           <div>
             <span class="time"> <%= course.created_at %> </span>
-            <h4><b><%= link_to :"#{course.no}", :controller => :student_ui, :action => :course, :course_no => course.no %> - <%= course.name %></b></h4>
+            <h4><b><%= link_to :"#{course.no} - #{course.name}", :controller => :student_ui, :action => :course, :course_no => course.no %></b></h4>
             <p>
                 <%= course.explain %>
             </p>
-            <p>
                 <br>
-                <b>Course Director :</b>  <%= Teacher.find(course.teacher_no).name %>
-            </p>
+                <b>Course Director :
+                <% @teacher_id = Teacher.find(course.teacher_no).id %>
+                <%= link_to :"#{Teacher.find(course.teacher_no).name}", :controller => :student_ui, :action => :teacher_profile, :teacher_id => @teacher_id %></b>
           </div>
         </li>
     <% end %>
   </ul>
+</div>
 </div>

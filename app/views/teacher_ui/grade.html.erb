@@ -1,4 +1,4 @@
-<div class="menu">
+<div class="menu" style="margin-left: 280px;">
   <ul>
     <li><%= link_to :'Home', :controller => :teacher_ui,  :action => :index %></li>
     <li><%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %></li>
@@ -8,10 +8,12 @@
     <li><%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %></li>
   </ul>
 </div>
+<%= image_tag(Teacher.find(session[:teacher_id]).profil_image, :size => "50x50", :alt => "Show Group", :style => "float:right;margin-right:10px;margin-top:10px;") %><br clear="left"/>
+<p style="float:right;margin-right:-50px;margin-top:10px;"><b><%= Teacher.find(session[:teacher_id]).name %></b></p>
 <br clear="left"/>
-<br><br><br>
-
-
+<br>
+<hr>
+<div style="margin-left: 250px;margin-right: 250px;">
 <% @course_to_student_notes.each do |ctsn| %>
     <% if ctsn.student_no == @student.student_number and ctsn.course_no == @course.id.to_s %>
         <% @result = ctsn.note %>
@@ -29,12 +31,9 @@
         </p>
       </div>
     </li>
-  </ul>
-</div>
 
-<h2><b>Projects</b></h2>
-<div class="blogs">
-  <ul>
+<h2 style="background-color: #D4D5D6;padding-top: 15px;"><b> &nbsp;&nbsp;&nbsp;Projects</b></h2>
+
     <% @projects.zip(@grades).each do |project, grade| %>
         <li>
           <div>
@@ -45,10 +44,11 @@
             </p>
             <% @uploadedFile = Upload.find_by_project_no(project.id) %>
             <% if @uploadedFile %>
-                <br><%= link_to :"#{@uploadedFile.file_name}", :controller => :student_ui, :action => :downloadFile, :name => @uploadedFile.file_name %><br>
+                &nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;<br><%= link_to :"#{@uploadedFile.file_name}", :controller => :student_ui, :action => :downloadFile, :name => @uploadedFile.file_name %><br>
             <% else %>
-                <br>File not uploaded<br>
+                <br>&nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;File not uploaded<br>
             <% end %>
+            &nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;<b>Grade:</b>
             <% if grade.nil? %>
                 <% @g = 'Not Graded' %>
             <% else %>
@@ -71,7 +71,7 @@
     </li>
   </ul>
 </div>
-
+</div>
 
 
 

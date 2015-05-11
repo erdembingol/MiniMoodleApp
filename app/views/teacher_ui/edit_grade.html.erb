@@ -1,4 +1,4 @@
-<div class="menu">
+<div class="menu" style="margin-left: 280px;">
   <ul>
     <li><%= link_to :'Home', :controller => :teacher_ui,  :action => :index %></li>
     <li><%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %></li>
@@ -8,10 +8,12 @@
     <li><%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %></li>
   </ul>
 </div>
+<%= image_tag(Teacher.find(session[:teacher_id]).profil_image, :size => "50x50", :alt => "Show Group", :style => "float:right;margin-right:10px;margin-top:10px;") %><br clear="left"/>
+<p style="float:right;margin-right:-50px;margin-top:10px;"><b><%= Teacher.find(session[:teacher_id]).name %></b></p>
 <br clear="left"/>
-<br><br><br>
-
-
+<br>
+<hr>
+<div style="margin-left: 250px;margin-right: 250px;">
 <div class="container">
   <%= form_tag(:action => 'update_grade') do %>
       <label>Enter new grade:</label>
@@ -24,4 +26,5 @@
 
       <%= submit_tag("Update") %>
   <% end %>
+</div>
 </div>

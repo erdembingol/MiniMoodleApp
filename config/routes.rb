@@ -70,6 +70,9 @@ Rails.application.routes.draw do
   get 'Enrol', :to => 'student_ui#enrol'
   post 'Enrol', :to => 'student_ui#enrol'
 
+  get 'TeacherProfile', :to => 'student_ui#teacher_profile'
+  post 'TeacherProfile', :to => 'student_ui#teacher_profile'
+
   ######################################################################################################################
 
   get 'Home', :to => 'teacher_ui#index'

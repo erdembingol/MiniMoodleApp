@@ -8,9 +8,11 @@
         <li><%= link_to :'Logout', :controller => :sessions,  :action => :logout %></li>
     </ul>
 </div>
-<br clear="left"/>
+<%= image_tag(Student.find_by_student_number(session[:student_id]).profil_image, :size => "50x50", :alt => "Show Group", :style => "float:right;margin-right:10px;margin-top:10px;") %><br clear="left"/>
+<p style="float:right;margin-right:-50px;margin-top:15px;"><b><%= Student.find_by_student_number(session[:student_id]).name %></b></p>
 
-<%= image_tag(@student.profil_image, :size => "64x64", :alt => "Show Group") %>
+<%= image_tag(@student.profil_image, :size => "100x100", :alt => "Show Group", :style => "margin-left : 400px; margin-top : 40px;") %>
+
 
 <div class="container_big">
 <%= form_tag(:action => 'edit_profile_control') do %>

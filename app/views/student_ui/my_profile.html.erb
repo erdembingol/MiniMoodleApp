@@ -8,23 +8,35 @@
         <li><%= link_to :'Logout', :controller => :sessions,  :action => :logout %></li>
     </ul>
 </div>
+<%= image_tag(Student.find_by_student_number(session[:student_id]).profil_image, :size => "50x50", :alt => "Show Group", :style => "float:right;margin-right:10px;margin-top:10px;") %>
+<p style="float:right;margin-right:-50px;margin-top:70px;"><b><%= Student.find_by_student_number(session[:student_id]).name %></b></p>
 <br clear="left"/>
 <br><br><br>
+<hr>
+<div style="margin-left: 250px;margin-right: 250px;">
+<h1 style="background-color: #D4D5D6;padding-top: 15px;"><b> &nbsp;&nbsp;&nbsp;My Profile </b></h1>
 
-<h1><b> My Profile </b></h1>
+<div align="center">
+
 <div class="blogs">
     <ul>
         <li>
             <div>
                 <span class="time">  </span>
-                <%= image_tag(@student.profil_image, :size => "64x64", :alt => "Show Group") %>
+                <%= image_tag(@student.profil_image, :size => "150x150", :alt => "Show Group") %>
                 <p>
-                    <br><b><%= @student.name %></b>
+                    <br>Student Number: <b><%= @student.student_number %></b>
                 </p>
                 <p>
-                    <%= @student.email %>
+                    Name: <b><%= @student.name %></b>
+                </p>
+                <p>
+                    E-mail: <b><%= @student.email %></b>
                 </p>
             </div>
         </li>
     </ul>
+</div>
+
+</div>
 </div>

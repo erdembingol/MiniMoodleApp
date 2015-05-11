@@ -1,4 +1,4 @@
-<div class="menu">
+<div class="menu" style="margin-left: 280px;">
     <ul>
       <li><%= link_to :'Home', :controller => :teacher_ui,  :action => :index %></li>
       <li><%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %></li>
@@ -8,16 +8,23 @@
       <li><%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %></li>
     </ul>
 </div>
-<br clear="left"/>
-<br><br><br>
+<%= image_tag(Teacher.find(session[:teacher_id]).profil_image, :size => "50x50", :alt => "Show Group", :style => "float:right;margin-right:10px;margin-top:10px;") %><br clear="left"/>
+<p style="float:right;margin-right:-50px;margin-top:10px;"><b><%= Teacher.find(session[:teacher_id]).name %></b></p>
 
-<h1><b> My Profile </b></h1>
+<br clear="left"/>
+<br>
+<hr>
+<div style="margin-left: 250px;margin-right: 250px;">
+<h1 style="background-color: #D4D5D6;padding-top: 15px;"><b> &nbsp;&nbsp;&nbsp;My Profile </b></h1>
+
+<div align="center">
+
 <div class="blogs">
   <ul>
     <li>
       <div>
         <span class="time">  </span>
-        <%= image_tag(@teacher.profil_image, :size => "64x64", :alt => "Show Group") %>
+        <%= image_tag(@teacher.profil_image, :size => "150x150", :alt => "Show Group") %>
         <p>
           <br><b><%= @teacher.name %></b>
         </p>
@@ -27,4 +34,7 @@
       </div>
     </li>
   </ul>
+</div>
+
+</div>
 </div>

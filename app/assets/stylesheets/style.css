@@ -494,9 +494,11 @@ ul.flickr li img {
 	z-index: 1000;
 	position: relative;
 
-    width: 960px;
+    width: 940px;
     margin: 0 auto;
     font-family: 'Ubuntu', sans-serif;
+
+    margin-left: 260px;
 }
 .menu ul {
 	margin: 0;
@@ -523,7 +525,7 @@ ul.flickr li img {
 	padding: 0;
 	background: none;
 
-    float:left;
+
     line-height: 30px;
     border-right: 1px solid #87e0fd;
 }
@@ -1930,6 +1932,7 @@ ol.commentlist li {
 
 /** blogs **/
 .blogs {
+    background-image: url("bg-body.jpg");
     background-color: #fcfefa;
     margin: 0 0 48px;
     padding: 10px;

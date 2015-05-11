@@ -1,0 +1,39 @@
+<div class="menu">
+  <ul>
+    <li><%= link_to :'Home', :controller => :student_ui,  :action => :index %></li>
+    <li><%= link_to :'My Profile', :controller => :student_ui,  :action => :my_profile %></li>
+    <li><%= link_to :'Edit Profile', :controller => :student_ui,  :action => :edit_profile %></li>
+    <li><%= link_to :'All Courses', :controller => :student_ui,  :action => :all_courses %></li>
+    <li><%= link_to :'My Courses', :controller => :student_ui,  :action => :my_courses %></li>
+    <li><%= link_to :'Logout', :controller => :sessions,  :action => :logout %></li>
+  </ul>
+</div>
+<%= image_tag(Student.find_by_student_number(session[:student_id]).profil_image, :size => "50x50", :alt => "Show Group", :style => "float:right;margin-right:10px;margin-top:10px;") %>
+<p style="float:right;margin-right:-50px;margin-top:70px;"><b><%= Student.find_by_student_number(session[:student_id]).name %></b></p>
+<br clear="left"/>
+<br><br><br>
+<hr>
+<div style="margin-left: 250px;margin-right: 250px;">
+<h1 style="background-color: #D4D5D6"><b> Course Director Profile </b></h1>
+
+<div align="center">
+
+  <div class="blogs">
+    <ul>
+      <li>
+        <div>
+          <span class="time">  </span>
+          <%= image_tag(@teacher.profil_image, :size => "150x150", :alt => "Show Group") %>
+          <p>
+            <br><b><%= @teacher.name %></b>
+          </p>
+          <p>
+            <%= @teacher.email %>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</div>
+</div>

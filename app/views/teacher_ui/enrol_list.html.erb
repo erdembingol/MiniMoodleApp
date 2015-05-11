@@ -1,4 +1,4 @@
-<div class="menu">
+<div class="menu" style="margin-left: 280px;">
   <ul>
     <li><%= link_to :'Home', :controller => :teacher_ui,  :action => :index %></li>
     <li><%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %></li>
@@ -8,35 +8,31 @@
     <li><%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %></li>
   </ul>
 </div>
+<%= image_tag(Teacher.find(session[:teacher_id]).profil_image, :size => "50x50", :alt => "Show Group", :style => "float:right;margin-right:10px;margin-top:10px;") %><br clear="left"/>
+<p style="float:right;margin-right:-50px;margin-top:10px;"><b><%= Teacher.find(session[:teacher_id]).name %></b></p>
 <br clear="left"/>
-<br><br><br>
-
-<h2><b>Enrol List</b></h2>
-<% if @enrol_list.length > 0 %>
-<p><%= link_to :'Accept All', :controller => :teacher_ui, :action => :accept_all_enrol %></p>
-<% else %>
-<p>No Request Found</p>
-<% end %>
-
-<% @enrol_list.each do |enrol| %>
-    <p>
-      Course No : <%= enrol.course_no %><br>
-      <% @student = Student.find_by_student_number(enrol.student_no) %>
-      Student Name : <%= @student.name %> <%= link_to :'Accept', :controller => :teacher_ui, :action => :accept_enrol, :student_no => enrol.student_no, :course_no => enrol.course_no %><br>
-    </p>
-    <hr>
-<% end %>
+<br>
+<hr>
+<div style="margin-left: 250px;margin-right: 250px;">
+<h1 style="background-color: #D4D5D6;padding-top: 15px;"><b> &nbsp;&nbsp;&nbsp;Enrol List</b></h1>
 
 <div class="blogs">
   <ul>
+    <% if @enrol_list.length > 0 %>
+        <%= link_to :'Accept All', :controller => :teacher_ui, :action => :accept_all_enrol %>
+    <% else %>
+        <p><br><br>No Request Found</p>
+    <% end %>
     <% @enrol_list.each do |enrol| %>
         <li>
           <div>
-            <b><%= enrol.course_no %></b> -
-            <% @student = Student.find_by_student_number(enrol.student_no) %>
-            <b><%= @student.name %> - <%= link_to :'Accept', :controller => :teacher_ui, :action => :accept_enrol, :student_no => enrol.student_no, :course_no => enrol.course_no %></b>
+            <% @student = Student.find_by_student_number(enrol.student_no) %><br>
+            <%= image_tag(@student.profil_image, :size => "64x64", :alt => "Show Group") %>
+            <b><%= @student.student_number %></b> - <b><%= @student.name %></b><br>
+            <b>Requesting enrol for <%= enrol.course_no %></b> <%= link_to :'Accept', :controller => :teacher_ui, :action => :accept_enrol, :student_no => enrol.student_no, :course_no => enrol.course_no %><br>
           </div>
         </li>
     <% end %>
   </ul>
+</div>
 </div>

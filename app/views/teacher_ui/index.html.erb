@@ -1,4 +1,4 @@
-<div class="menu">
+<div class="menu" style="margin-left: 280px;">
   <ul>
     <li><%= link_to :'Home', :controller => :teacher_ui,  :action => :index %></li>
     <li><%= link_to :'My Profile', :controller => :teacher_ui,  :action => :my_profile %></li>
@@ -8,10 +8,11 @@
     <li><%= link_to :'Logout', :controller => :sessions_teacher,  :action => :logout_teacher %></li>
   </ul>
 </div>
-<br clear="left"/>
-<br><br><br>
-
-
+<%= image_tag(Teacher.find(session[:teacher_id]).profil_image, :size => "50x50", :alt => "Show Group", :style => "float:right;margin-right:10px;margin-top:10px;") %><br clear="left"/>
+<p style="float:right;margin-right:-50px;margin-top:10px;"><b><%= Teacher.find(session[:teacher_id]).name %></b></p>
+<br clear="left"/><br>
+<hr>
+<div style="margin-left: 250px;margin-right: 250px;">
 <% if @course %>
 <div class="blogs">
     <ul>
@@ -27,14 +28,14 @@
     </ul>
 </div>
 
-<h2><b> Lectures </b></h2>
+<h2 style="background-color: #D4D5D6;padding-top: 15px;"><b> &nbsp;&nbsp;&nbsp;Lectures </b></h2>
 <div class="blogs">
   <ul>
     <li>
       <div>
       <% @lectures.each do |lecture| %>
         <span class="time"> <%= lecture.created_at %> </span>
-        <%= link_to :"#{lecture.name}", :controller => :student_ui, :action => :downloadFile, :name => lecture.name %><br>
+            &nbsp;&nbsp;&nbsp;=>&nbsp;&nbsp;<%= link_to :"#{lecture.name}", :controller => :student_ui, :action => :downloadFile, :name => lecture.name %><br>
       <% end %>
         <%= form_tag({:action => 'upload_lecture_file'}, :multipart => true) do %>
             <label>Select Lecture</label> : <%= file_field 'upload', 'datafile' %>
@@ -45,7 +46,7 @@
   </ul>
 </div>
 
-<h2><b> Projects </b></h2>
+<h2 style="background-color: #D4D5D6;padding-top: 15px;"><b> &nbsp;&nbsp;&nbsp;Projects </b></h2>
 <div class="blogs">
   <ul>
     <% @projects.each do |project| %>
@@ -59,7 +60,7 @@
 
             <% @files.each do |file| %>
                 <% if file.project_no == project.id.to_s %>
-                    <%= link_to :"#{file.name}", :controller => :student_ui, :action => :downloadFile, :name => file.name %>
+                    &nbsp;&nbsp;&nbsp;=> &nbsp;&nbsp;<%= link_to :"#{file.name}", :controller => :student_ui, :action => :downloadFile, :name => file.name %><br>
                 <% end %>
             <% end %>
 
@@ -90,3 +91,4 @@
         </ul>
     </div>
 <% end %>
+</div>

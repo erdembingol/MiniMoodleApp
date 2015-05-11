@@ -120,4 +120,10 @@ class StudentUiController < ApplicationController
     )
   end
 
+  def teacher_profile
+    puts params[:teacher_id]
+    puts "....................................................."
+    @teacher = Teacher.find(params[:teacher_id])
+  end
+
 end
