@@ -34,12 +34,12 @@
 <div class="blogs">
     <ul>
         <li>
-          <% @lectures.each do |lecture| %>
             <div>
+              <% @lectures.each do |lecture| %>
                 <span class="time"> <%= lecture.created_at %> </span>
                 =>&nbsp;&nbsp;<%= link_to :"#{lecture.name}", :controller => :student_ui, :action => :downloadFile, :name => lecture.name %><br>
+              <% end %>
             </div>
-          <% end %>
         </li>
     </ul>
 </div>

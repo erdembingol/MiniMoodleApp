@@ -10,11 +10,11 @@
 </div>
 <%= image_tag(Teacher.find(session[:teacher_id]).profil_image, :size => "50x50", :alt => "Show Group", :style => "float:right;margin-right:10px;margin-top:10px;") %><br clear="left"/>
 <p style="float:right;margin-right:-50px;margin-top:10px;"><b><%= Teacher.find(session[:teacher_id]).name %></b></p>
-<br clear="left"/>
+<br clear="left"/><br>
+<hr>
+<%= image_tag(@teacher.profil_image, :size => "100x100", :alt => "Show Group", :style => "margin-left : 400px; margin-top : 30px;") %>
 
-<%= image_tag(@teacher.profil_image, :size => "100x100", :alt => "Show Group", :style => "margin-left : 400px; margin-top : 20px;") %>
-
-<div class="container_big">
+<div class="container_large">
   <%= form_tag(:action => 'edit_profile_control') do %>
       <label>Profil Image:</label>
       <%= file_field_tag(:profil_image) %>
