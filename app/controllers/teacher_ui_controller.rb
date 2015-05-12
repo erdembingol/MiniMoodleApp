@@ -3,19 +3,26 @@ class TeacherUiController < ApplicationController
   def index
     @course = Course.find_by_teacher_no(session[:teacher_id])
 
-    @lectures = Record.find_by_sql "SELECT r.*
-                                    FROM records r, course_lecture_to_files cltf
-                                    WHERE cltf.course_no = '#{@course.id}' and cltf.file_no = r.id"
+    if @course
+      @lectures = Record.find_by_sql "SELECT r.*
+                                      FROM records r, course_lecture_to_files cltf
+                                      WHERE cltf.course_no = '#{@course.id}' and cltf.file_no = r.id"
 
-    @projects = Project.find_by_sql "SELECT p.*
-                                     FROM projects p, course_to_projects ctp
-                                     WHERE ctp.project_no = p.id and ctp.course_no = '#{@course.id}'"
+      @projects = Project.find_by_sql "SELECT p.*
+                                       FROM projects p, course_to_projects ctp
+                                       WHERE ctp.project_no = p.id and ctp.course_no = '#{@course.id}'"
 
-    @files = Record.find_by_sql "SELECT r.name, r.path, ptf.project_no
-                                 FROM records r, project_to_files ptf, course_to_projects ctp
-                                 WHERE ctp.course_no = '#{@course.id}' and ctp.project_no = ptf.project_no and ptf.file_no = r.id"
+      @files = Record.find_by_sql "SELECT r.name, r.path, ptf.project_no
+                                   FROM records r, project_to_files ptf, course_to_projects ctp
+                                   WHERE ctp.course_no = '#{@course.id}' and ctp.project_no = ptf.project_no and ptf.file_no = r.id"
 
-    session[:course_id] = @course.id
+      session[:course_id] = @course.id
+    else
+      @lectures = nil
+      @projects = nil
+      @files = nil
+    end
+
   end
 
   def my_profile
@@ -77,8 +84,10 @@ class TeacherUiController < ApplicationController
 
   def grading
     @course = Course.find_by_teacher_no(session[:teacher_id])
-    @students = Student.find_by_sql "SELECT s.* FROM students s, course_to_students cts
-                                     WHERE s.student_number = cts.student_no and cts.course_no = '#{@course.no}'"
+    if @course
+      @students = Student.find_by_sql "SELECT s.* FROM students s, course_to_students cts
+                                       WHERE s.student_number = cts.student_no and cts.course_no = '#{@course.no}'"
+    end
   end
 
   def grade

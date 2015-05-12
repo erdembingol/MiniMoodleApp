@@ -38,6 +38,7 @@ class SessionsTeacherController < ApplicationController
     @teacher.email = params[:email]
     if @teacher.save
       File.open(Rails.root.join('app/assets', 'images', params[:profil_image]), 'wb') do |f| f.write(params[:profil_image]) end
+      session[:teacher_id] = Teacher.last.id
       redirect_to url_for(:controller => :teacher_ui, :action => :index), :notice => "User was saved"
     else
       render 'signup_teacher'

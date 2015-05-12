@@ -21,7 +21,7 @@
     <% if @enrol_list.length > 0 %>
         <%= link_to :'Accept All', :controller => :teacher_ui, :action => :accept_all_enrol %>
     <% else %>
-        <p><br><br>No Request Found</p>
+        <p><br><br>Not Found Request </p>
     <% end %>
     <% @enrol_list.each do |enrol| %>
         <li>

@@ -17,17 +17,21 @@
 <h1 style="background-color: #D4D5D6;padding-top: 15px;"><b> &nbsp;&nbsp;&nbsp;Student List</b></h1>
 <div class="blogs">
   <ul>
-    <% @students.each do |student| %>
-        <li>
-          <div>
-            <%= image_tag(student.profil_image, :size => "64x64", :alt => "Show Group") %>
-            <br><b><%= student.student_number %> - <%= student.name %></b>
-            <p>
-                <%= student.email %>
-            </p>
-            <%= link_to :'Grade', :controller => :teacher_ui, :action => :grade, :student_no => student.student_number %>
-          </div>
-        </li>
+    <% if @students %>
+        <% @students.each do |student| %>
+            <li>
+              <div>
+                <%= image_tag(student.profil_image, :size => "64x64", :alt => "Show Group") %>
+                <br><b><%= student.student_number %> - <%= student.name %></b>
+                <p>
+                    <%= student.email %>
+                </p>
+                <%= link_to :'Grade', :controller => :teacher_ui, :action => :grade, :student_no => student.student_number %>
+              </div>
+            </li>
+        <% end %>
+    <% else %>
+        <p><br><br>Not Found Student</p>
     <% end %>
   </ul>
 </div>
