@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Mini Moodle App.iml" filepath="$PROJECT_DIR$/.idea/Mini Moodle App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SocialActiviteProject/.idea/SocialActiviteProject.iml" filepath="$PROJECT_DIR$/../SocialActiviteProject/.idea/SocialActiviteProject.iml" />
     </modules>
   </component>
 </project>

@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2448779370">
+  <component name="DataSourceManagerImpl" format="xml" hash="4124887460">
     <data-source source="LOCAL" name="Rails Mini Moodle App: development" uuid="489a472a-ca31-450d-a585-eeb0a951c0ef">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\erdem_000\RubymineProjects\Mini Moodle App\db\development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Mini Moodle App: test" uuid="58a501ca-d361-439b-a7f0-66a6f8b13769">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:db/test.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Mini Moodle App: production" uuid="d38b94dd-5705-4dd8-8c11-2efb38eadd4e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:db/production.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>

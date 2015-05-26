@@ -3,4 +3,10 @@
   <data-source source="LOCAL" name="Rails Mini Moodle App: development" uuid="489a472a-ca31-450d-a585-eeb0a951c0ef">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails Mini Moodle App: test" uuid="58a501ca-d361-439b-a7f0-66a6f8b13769">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails Mini Moodle App: production" uuid="d38b94dd-5705-4dd8-8c11-2efb38eadd4e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
