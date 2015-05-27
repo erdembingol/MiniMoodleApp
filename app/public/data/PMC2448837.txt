@@ -1,0 +1,849 @@
+Preferential subfunctionalization of slow-evolving
+genes after allopolyploidization in Xenopus laevis
+Marie Se´mon and Kenneth H. Wolfe*
+Smurfit Institute of Genetics, Trinity College, Dublin 2, Ireland
+Edited by Wen-Hsiung Li, University of Chicago, Chicago, IL, and approved April 11, 2008 (received for review September 13, 2007)
+As paleopolyploid genomes evolve, the expression profiles of
+retained gene pairs are expected to diverge. To examine this
+divergence process on a large scale in a vertebrate system, we
+compare Xenopus laevis, which has retained 40% of loci in
+duplicate after a recent whole-genome duplication (WGD), with its
+unduplicated relative Silurana (Xenopus) tropicalis. This compari-
+son of ingroup pairs to an outgroup allows the direction of change
+in expression profiles to be inferred for a set of 1,300X. laevis pairs,
+relative to their single orthologs in S. tropicalis, across 11 tissues.
+We identify 68 pairs in which X. laevis is inferred to have under-
+gone a significant reduction of expression in at least two tissues
+since WGD. Of these pairs, one-third show evidence of subfunc-
+tionalization, with decreases in the expression levels of different
+gene copies in two different tissues. Surprisingly, we find that
+genes with slow rates of evolution are particularly prone to
+subfunctionalization, even when the tendency for highly ex-
+pressed genes to evolve slowly is controlled for. We interpret this
+result to be an effect of allopolyploidization. We then compare the
+outcomes of this WGD with an independent one that happened in
+the teleost fish lineage. We find that if a gene pair was retained in
+duplicate in X. laevis, the orthologous pair is more likely to have
+been retained in duplicate in zebrafish, suggesting that similar
+factors, among them subfunctionalization, determined which gene
+pairs survived in duplicate after the two WGDs.
+rate of evolution  Silurana tropicalis  whole-genome duplication
+Polyploidy, also termed whole-genome duplication (WGD) isa frequent phenomenon in eukaryotes (1). A WGD is
+followed by extensive and rapid genome restructuring involving
+many gene losses, so that only one of the two gene copies remains
+in most genomes that underwent ancient polyploidization [for
+example, fish and yeast (2, 3)]. Alterations in function are
+expected among genes retained in duplicate. In some cases, one
+copy may acquire a new function (neofunctionalization), while
+the other keeps the ancestral function. The models of Lynch and
+Force (4, 5) also propose the existence of subfunctionalization,
+in which each copy retains a subset of the functions of the
+ancestral gene. Sub and neofunctionalization models make
+different predictions about the rate and symmetry of sequence
+evolution in the duplicates.
+Asymmetry in evolutionary rates between the protein se-
+quences of the two copies is often interpreted as a footprint of
+neofunctionalization, especially if it is associated with evidence
+of positive selection in the accelerated copy (6). Several studies
+of paleopolyploid genomes have shown that rate asymmetry
+between the two copies can be widespread. For example, asym-
+metry was seen in 6% of retained gene pairs in Xenopus laevis
+and in 25–36% of pairs in teleost fishes (6–8). Relatively few
+examples of subfunctionalization of duplicated genes have been
+demonstrated so far, the best-known being those of fish mitf (9),
+sox9 (10), synapsin (11), POMC (12),mbx (13), and the plant gene
+RPL32-SODcp (14). A few studies have attempted to detect
+subfunctionalization on a larger scale after WGD. Aury et al.
+(15) used successive rounds ofWGD in Paramecium to test Force
+et al.’s (5) prediction that subfunctionalized gene pairs should be
+resistant to reduplication. Their results suggest that subfunction-
+alization has occurred, but only rarely, in Paramecium genes.
+Other studies of subfunctionalization after WGD have focused
+on complementary amino acid substitution in protein pairs (6)
+and on the differential loss of regulatory regions between
+duplicated copies of developmental genes (16).
+The most powerful method currently available to study the
+divergence of function between duplicated genes on a large scale
+is the analysis of their transcription profiles. Many studies have
+shown expression divergence betweenWGD-duplicates (17–22).
+However, a major obstacle encountered in all these studies is that
+they could not differentiate between sub and neofunctionaliza-
+tion because the pattern of expression before duplication was
+unknown. This obstacle was overcome recently for gene pairs
+that were formed by WGD in Saccharomyces cerevisiae by
+comparing their pattern of expression to Candida albicans, an
+outgroup whose genome was not duplicated and therefore can be
+used to approximate the ancestral expression state (23).
+Here, we apply a similar approach to search for evidence of gene
+subfunctionalization after WGD in a vertebrate system. We com-
+pare the expression profiles of gene pairs preserved in duplicate
+after WGD in X. laevis to the expression profiles of orthologous
+genes in the unduplicated clawed frog S. tropicalis (sometimes also
+called X. tropicalis). TheWGD that has been proposed for X. laevis
+has not yet been validated by a complete genome sequence, but it
+is estimated to have occurred 21–54.6Mya (6, 24, 25) and it is likely
+to have been an allopolyploidization because interspecies crosses in
+Xenopus often produce fertile polyploid offspring and phylogenetic
+studies have shown that other polyploid clawed frogs are ancient
+allopolyploids (24, 26, 27).
+We used the extensive expressed sequence tag (EST) and
+cDNA sequence resources available for these species (20, 21, 25)
+to detect genes present in one copy in S. tropicalis and in two
+copies in X. laevis. We inferred the pattern of expression in these
+triplets and detected events of subfunctionalization. We then
+tested whether the subfunctionalized genes are a random subset
+of the genome.
+Results
+Construction of the Dataset. We clustered Xenopus expressed
+sequences (ESTs and full-length cDNAs) that are publicly
+available (558,503 sequences for X. laevis and 1,046,555 for S.
+tropicalis). We chose very stringent clustering parameters to
+avoid merging sequences expressed by paralogous genes [see
+Methods, supporting information (SI) Methods, and Fig. S1].
+Using phylogenetic analysis, we built a dataset of 1,300 triplets,
+composed of one gene in S. tropicalis and its two coorthologs in
+X. laevis, whose duplication was most probably due to WGD.
+Author contributions: M.S. and K.H.W. designed research; M.S. performed research; M.S.
+analyzed data; and M.S. and K.H.W. wrote the paper.
+The authors declare no conflict of interest.
+This article is a PNAS Direct Submission.
+*To whom correspondence should be addressed. E-mail: khwolfe@tcd.ie.
+This article contains supporting information online at www.pnas.org/cgi/content/full/
+0708705105/DCSupplemental.
+© 2008 by The National Academy of Sciences of the USA
+www.pnas.orgcgidoi10.1073pnas.0708705105 PNAS  June 17, 2008  vol. 105  no. 24  8333–8338
+EV
+O
+LU
+TI
+O
+N
+An early study based on a very small dataset proposed that
+77% of genes were retained in duplicate inX. laevis (28). By using
+highly expressed genes to minimize errors associated with EST
+sampling, we estimate that 32–47% of genes were retained in
+double-copy in X. laevis afterWGD (SI Methods and Figs. S2 and
+S3). Our figure is similar to Hellsten et al.’s (21) estimate of
+25–50% retention. Gene loss has been less extensive after the
+relatively recent WGD in X. laevis than after the teleost-specific
+WGD, which is 10 times older (29, 30): In Tetraodon nigroviridis
+for instance, only 15% of genes were retained in duplicate (7).
+We estimated the gene expression profiles of each triplet based
+on the tissue from which the ESTs were extracted. More precisely,
+we obtained for each gene in each triplet a measure of its level of
+expression in each of 11 tissues that had been used for library
+construction in both species (seeMethods for a list). We measured
+the conservation of these expression patterns between the two X.
+laevis copies sinceWGDby a Spearman correlation coefficient.We
+find that the majority of duplicate pairs do not show much diver-
+gence in expression since WGD (median correlation rho  0.64;
+Fig. S4), a result similar to that of Chain et al. (22).
+Detection of Changes in Expression Profile: Subfunctionalization and
+Asymmetric Changes. We used parsimony to estimate the pattern
+of evolution of expression in each triplet. The principle of our
+analysis is shown in Fig. 1. We say that a pair of duplicates in X.
+laevis has become subfunctionalized if we infer that one gene
+copy shows a significant decrease in expression level in one
+tissue, whereas the other copy shows a significant decrease in a
+different tissue (Fig. 1b). We modified slightly a statistical test
+developed by Audic and Claverie (31) to take into account the
+effect of WGD and subsequent gene losses on the relative
+contribution of each gene to the total pool of mRNA in the cell
+(see Methods, SI Methods, and Figs. S5 and S6). We performed
+this test on the 1,300 triplets and found 61 examples of subfunc-
+tionalization (4%). This number drops to 19 triplets (1.2%) if we
+correct for multiple testing [false discovery rate (FDR)  0.05]
+(32). These triplets are loci in which expression has been
+significantly decreased in one X. laevis copy in one tissue and in
+the other X. laevis copy in another tissue, whatever other changes
+happened (significant or not) in the nine remaining tissues.
+Among these 19 triplets, 15 have undergone significant changes
+in exactly two tissues and no significant changes in the other
+tissues (44 without correction for multiple testing).
+We implemented another method to identify subfunctionaliza-
+tion between the two X. laevis copies. We constructed for each
+triplet the patternXlsum bymerging the patterns of expression of the
+two X. laevis copies (summing the number of ESTs per million for
+each tissue). Subfunctionalizations are cases where each of the
+copies in X. laevis has retained part of the ancestral function;
+therefore, the Spearman correlation of the patterns of expression
+between S. tropicalis and Xlsum should be higher than both of the
+correlations between S. tropicalis and the individual X. laevis genes.
+This pattern was found in 11% of the triplets (144 triplets).
+Cases of subfunctionalization, therefore, represent only a small
+proportion (1.2–11%) of the WGD-duplicates considered here;
+however, we have seen that most pairs have not diverged in
+expression since theWGD (Fig. S4).We tested whether, among the
+minority of genes that do show significant changes in expression in
+our dataset, the pattern of changes frequently corresponds to a
+subfunctionalization pattern. We searched in particular for two
+patterns of expression profile change, which we refer to as sub-
+functionalization and asymmetric change (Fig. 1 b and c). Both of
+these patterns involve decreases of expression inX. laevis compared
+with S. tropicalis. We detected 49 cases of asymmetric partitioning
+of expression (109 without multiple testing), defined as triplets
+where expression has decreased significantly in at least two tissues
+since WGD, in the same X. laevis copy (Fig. 1c). Therefore, we
+estimate that, among X. laevis gene pairs whose expression has
+diverged significantly, one-third (19 of 68) are subfunctionalized,
+which is less than the 50% expected by chance (P 0.01 by Fisher’s
+test). This ratio remains constant if we only consider genes with
+significant changes in exactly two tissues (Fig. 1e).
+Relationship Between Rate of Sequence Evolution and Pattern of
+Expression Divergence.We examined whether the rate of evolution
+of a gene influences the evolution of its expression patterns after
+WGD. Because duplication tends to increase the rate of nonsyn-
+onymous sequence evolution [for instance, in Xenopus (21)], we
+instead measured this rate (dN) between two species whose ge-
+nomes have not been duplicated: S. tropicalis and human. This dN
+value should be indicative of the gene’s evolutionary rate before
+WGD. We find that genes that became subfunctionalized were
+more slowly evolving beforeWGDthan the geneswith noparticular
+pattern of expression evolution (median dN values 0.154 and 0.214
+respectively; P 0.018 with two repetitions is significant at a 3.6%
+level; Fig. 2a). We consider this difference as biologically mean-
+ingful, even though its significance is marginal after Bonferroni
+correction, because the median dN is 40% lower in subfunctional-
+ized genes than in the other genes, and because the power of the test
+is not very high given the small size of the datasets. In contrast, there
+is no significant rate difference between genes that later underwent
+an asymmetric pattern of expression evolution inX. laevis and those
+with no particular pattern of expression change (P 0.97; Fig. 2a).
+This preferential subfunctionalization of slowly evolving genes
+was unexpected. It is not a bias because of differences in
+mutation rate or in the age of the duplicates, because the levels
+of synonymous substitution are not significantly different among
+the three categories of genes (Fig. 2b). There is, however,
+another possible bias. By construction, the triplets with either
+subfunctionalization or asymmetric change of expression are
+expressed in more tissues and at a higher level than triplets that
+do not show these patterns (Fig. 2c), and it is known that genes
+expressed in many tissues evolve more slowly than other genes
+(33, 34). However, after correcting for this bias we still find that
+genes that became subfunctionalized are descended from excep-
+tionally slowly evolving ancestors (Fig. 3a; P  0.009 with four
+St
+Xl2
+Xl1
+t1 t2
+ subfunctionalization  asymmetric
+t1 t2
+divergence in
+at least 2 tissues
+divergence in
+exactly 2 tissues
+19 (61) 49 (109)
+15 (44) 41 (93)
+0.01 (0.01)
+0.02 (0.003)
+Fisher test p-value
+ level of expression:
+high
+low
+a b c
+d
+e
+Fig. 1. Principles of expression evolution in Xenopus sequence triplets. (a)
+Each triplet includes one gene in S. tropicalis (St) and its two coorthologs in X.
+laevis (Xl1 and Xl2) created by WGD. (b) A case of subfunctionalization.
+Columns t1 and t2 represent two tissues. Arrows represent the results of
+statistical tests and point to the gene with the significantly lower expression
+level. Here, expression of gene Xl1 in tissue t1 is significantly lower than
+expression of both St and Xl2 in the same tissue. In tissue t2, gene Xl2 shows
+lower expression.We infer that the gene was expressed in both tissues t1 and
+t2 before WGD and that subsequently the expression of Xl1 decreased in t1,
+whereas expression of its paralog Xl2 decreased in t2; this corresponds to a
+subfunctionalization pattern. (c) A case of asymmetric evolution of expres-
+sion. Significant decreases in expression are inferred inX. laevis in two tissues,
+but they both involve the sameX. laevis gene (here,Xl1). (d) Numbers of gene
+triplets showing subfunctionalization and asymmetric patterns of expression
+evolutionas definedabove.Numbers inparentheses donot include correction
+for multiple testing. P values by Fisher’s test show that asymmetric evolution
+of expression is more frequent than subfunctionalization. (e) Numbers of
+triplets with subfunctionalized and asymmetric patterns of expression, de-
+fined as caseswhere there is a significant decrease of expression in exactly two
+tissues, and no significant decrease in the other nine tissues.
+8334  www.pnas.orgcgidoi10.1073pnas.0708705105 Se´mon and Wolfe
+repetitions is significant at a 3.6% level). Moreover, this method
+of analysis also shows an opposite pattern in genes that
+developed asymmetric expression patterns after WGD: The
+ancestors of these genes were unusually quickly evolving (Fig. 3b;
+P  0.001 with four repetitions is significant at a 0.4% level).
+These results are very surprising because they show that the rate
+of sequence evolution before the duplication influences the
+pattern of evolution of expression after the duplication.
+We then asked whether the triplets of genes with subfunc-
+tionalization or asymmetric patterns of expression evolution
+have a particular rate of evolution afterWGD.We computed the
+nonsynonymous divergence between the two paralogous copies
+in X. laevis and compared the mean values among groups with
+different patterns of expression evolution (Fig. 2d). Nonsynony-
+mous divergence between X. laevis copies is significantly smaller
+for subfunctionalized genes (median dN: 0.023) than for genes
+with no particular pattern of expression evolution (median dN:
+0.031; P  0.01 by Wilcoxon test with two repetitions is signif-
+icant at a 2% level). This effect is only marginally significant after
+correction for expression bias (Fig. 3c, P  0.03 with four
+repetitions is marginally significant at a 12% level). Genes with
+an asymmetric pattern of evolution do not have a particular rate
+of evolution after duplication (Fig. 3d; P 0.08 is not significant
+after Bonferroni correction). We also evaluated the asymmetry
+in the rates of nonsynonymous substitution between the two
+copies in X. laevis, using like-tri-test (35), but we found no link
+between sequence asymmetry and the pattern of expression
+evolution (Fig. 2f ). A recent study showed that rates of nonsyn-
+onymous sequence evolution increased after WGD in X. laevis
+sequences, but this was a small effect only visible after concat-
+enation of the sequences (21). Therefore, it is possible that
+nonsynonymous rates of evolution are asymmetric after dupli-
+cation, but this effect is not visible on a gene-by-gene basis.
+Convergent Outcomes of Two Independent WGDs in Teleost Fish and
+X. laevis. We have seen that subfunctionalized genes in X. laevis
+are distinctive because they were slowly evolving before WGD.
+Therefore, it is possible that some genes are more prone to
+subfunctionalization than others. To test this hypothesis, we
+compared the outcomes of two WGDs that occurred indepen-
+dently in vertebrates: one in X. laevis and one at the base of
+teleost fish lineage. First, we tested the null hypothesis that the
+two WGDs should have independent results in terms of double-
+copy retentions. In other words, whether a gene pair was or was
+not retained in duplicate in X. laevis should have no bearing on
+whether or not its orthologous pair was retained in fish. Because
+the genome of zebrafish has been completely sequenced, we can
+assess with certainty whether a gene pair was retained in two
+copies in this species after its WGD, whereas this is not feasible
+none
+asymmetric
+Number
+of genes
+603
+26
+48
+dN dS
+0.214
+0.246
+0.221
+0.233
+0.154
+0.175
+2.975
+3.020
+3.351
+3.821
+2.950
+2.999
+0.018
+0.97
+0.59
+0.40
+# ESTs in St
+45
+76
+89
+191
+109
+140
+Expression
+evolution
+p
+re
+-d
+up
+lic
+at
+io
+n
+S
+t 
+vs
+. h
+um
+an
+a
+subfunc.
+none
+asymmetric
+Number
+of genes
+1071
+42
+86
+dN dS
+0.029
+0.034
+0.023
+0.027
+0.214
+0.206
+0.206
+0.215
+0.206
+0.209
+0.01
+0.11
+0.87
+0.65
+Degree of 
+asymmetry in dN
+0.202
+0.243
+0.248
+0.286
+0.765
+0.218
+ 0.15
+0.31
+Expression
+evolution
+p
+os
+t-
+d
+up
+lic
+at
+io
+n
+X
+l1
+ v
+s.
+ X
+l2
+subfunc.
+0.031
+0.039
+b c
+d e f
+*
+*
+*
+*
+Fig. 2. Ratesof sequenceevolutionare correlatedwithexpressionevolution.
+Patterns of expression evolution are classified as subfunctionalized or asym-
+metric as in Fig. 1e; ‘‘none’’ refers to triplets that show neither of these
+patterns.dN,dS, and #ESTs are, respectively, the levels of nonsynonymous and
+synonymous sequence evolution and the number of ESTs in S. tropicalis (St).
+The median and mean of these variables are indicated (above and below,
+respectively), and P values for Wilcoxon tests for the pairwise comparison
+between the set ‘‘none’’ and each of the other sets of genes are shown near
+the arrows. Significant P values after Bonferroni correction (two test repeti-
+tions per panel) are indicated in red and marked with an asterisk. (a–c)
+Preduplication rates of sequence evolution are estimated between S. tropi-
+calis and human. (d–f ) Postduplication rates are computed between the two
+copies in X. laevis (Xl1 and Xl2).
+subfunctionalized asymmetric
+P = 0.03 P = 0.08
+P =  0.009 P = 0.001
+p
+re
+-d
+up
+lic
+at
+io
+n
+p
+os
+t-
+d
+up
+lic
+at
+io
+n
+a b
+c d
+N = 26 N = 48
+N = 43 N = 83
+0.14 0.16 0.18 0.2 0.22
+0
+50
+10
+0
+15
+0
+0.14 0.16 0.18 0.20 0.22
+0.025 0.030 0.035 0.020 0.024 0.028 0.032
+0
+40
+80
+12
+0
+0
+40
+80
+12
+0
+0
+10
+0
+15
+0
+10
+0
+15
+0
+50
+* *
+Fig. 3. The rate of nonsynonymous sequence evolution (dN) before the
+duplication influences the pattern of evolution of expression after the dupli-
+cation. Shownare comparisons of anobservedmediandN value (red line)with
+a histogram of the distribution of expected values; the x axis in each panel is
+in dN units, and the y axis shows the number of genes in the histogram. P
+values for the comparisons between the observed values and the distributions
+are shown. Asterisks mark tests that are significant at a 5% level after
+Bonferroni correction for the four test repetitions. (a) The median value
+(0.154) of dN(human, S. tropicalis) for the set of 26 genes that show subfunction-
+alization in X. laevis and have an annotated ortholog in human is
+superimposed on a histogram showing the distribution of median values of
+dN(human, S. tropicalis) obtained from1,000 samples. Each of these samples contains
+100 genes chosen randomly from triplets with neither subfunctionalized nor
+asymmetric pattern of evolution of expression, such that the distribution of
+the levels of expression (measured in S. tropicalis) in each sample is the same
+as in the distribution observed in the set of 26 subfunctionalized genes. (b–d)
+Comparisons of observed median dN values with histograms of the distribu-
+tions ofmedian dN values obtained from same-size samples of genes showing
+no significant expression evolution and after correction for expression level.
+The four panels compare the observed median dN values (red line) of loci
+whose X. laevis coorthologs show either subfunctionalization (a and c) or
+asymmetric (b and d) patterns of expression evolution, to distributions sam-
+pled from triplets that do not show such patterns and after correction for
+expression level. a and b show dN values calculated between S. tropicalis and
+human, representing the preduplication rate of evolution, and c and d show
+dN values calculated from comparisons between the X. laevis coorthologs,
+representing the postduplication rate.
+Se´mon and Wolfe PNAS  June 17, 2008  vol. 105  no. 24  8335
+EV
+O
+LU
+TI
+O
+N
+in X. laevis. We identified reliable orthologs in zebrafish for half
+of our triplets (529 genes; Fig. 4a). The fraction of these families
+that contain two WGD coorthologs in zebrafish is 9.5% (51 of
+529). This fraction is significantly higher than the corresponding
+fraction for gene families in which only one X. laevis copy was
+found (6.8%; 226 of 3,305; Fig. 4b; P  0.036 by Fisher’s test).
+The latter set corresponds to families for which we did not detect
+a second gene in X. laevis, which in some cases might have been
+because no EST was sampled rather than because the gene is
+truly single-copy in X. laevis. For this reason, our test is a
+conservative one, and we conclude that genes retained in
+duplicate after one vertebrate WGD event have increased
+probability of also having been retained after the other.
+What is the reason for this convergence? It has been shown that
+highly expressed genes are overretained after WGD (15, 36). If
+expression level differences are responsible for the nonindepen-
+dence of the two WGDs, we would expect that highly expressed
+genes should have higher frequencies of retention in duplicate than
+weakly expressed genes, after both WGDs. We divided our dataset
+of Xenopus-fish orthologs into two classes depending on their
+expression level in S. tropicalis (low or high; Fig. 4c) and observed
+that the proportion of genes retained in duplicate in zebrafish is
+higher (12%; 32 of 262) for genes highly expressed in S. tropicalis
+than for low-expression genes (7%; 19 of 267; P 0.04 by Fisher’s
+test). The genes responsible for the nonindependence of the two
+duplications are therefore highly expressed.
+We can ask whether these highly expressed genes have been
+retained for the same reason after the twoWGDs. By definition,
+subfunctionalized genes are expressed in several tissues and they
+are also highly expressed (Fig. 2c), so it is possible that the genes
+convergently retained in duplicate after the two WGDs are
+enriched in subfunctionalized genes. Indeed, we find that genes
+that have been subfunctionalized in X. laevis have a higher
+frequency of parallel retention in zebrafish (22%; 4 of 18; Fig.
+4d) than do those that show no pattern of expression divergence
+or an asymmetric divergence pattern (8 and 16%, respectively;
+data from Fig. 4d; P  0.037 by 2 test of homogeneity among
+these three categories). These results suggest that gene pairs
+retained by subfunctionalization in X. laevis also tended to be
+retained by subfunctionalization in zebrafish. Unfortunately, we
+cannot directly test whether these pairs have been subfunction-
+alized in zebrafish, because no expression data are available for
+any outgroup species that diverged shortly before the teleost
+WGD. However, our hypothesis of convergent subfunctional-
+ization receives some support from a comparison of the diver-
+gence of expression profiles between the pairs in zebrafish and
+in X. laevis (Fig. S7).
+Discussion
+In their pioneering study of 17 duplicated genes in X. laevis,
+Hughes and Hughes (28) already noticed that in four cases the
+two copies were expressed in different tissues or at different
+developmental times, and this trend was confirmed recently in
+larger datasets (20, 21). We detect relatively little subfunction-
+alization in our dataset (1.2–11% of the WGD-duplicates con-
+sidered). This may be because most pairs have not diverged in
+expression since the WGD and subfunctionalization actually
+only happened in a small percentage of pairs. Alternatively, our
+ability to detect subfunctionalization is perhaps limited. If we
+had complete information about transcription in every tissue, we
+could more accurately detect significant expression divergence
+between gene pairs in some particular tissues and hence obtain
+a reliable estimate of the fraction of genes undergoing subfunc-
+tionalization. The frequency of subfunctionalization we estimate
+here is a lower limit, because we examined a limited number of
+tissues, but we cannot propose an upper bound for this figure.
+Even though we were not able to estimate the frequency of
+subfunctionalization, we could still examine the characteristics of
+genes that became subfunctionalized.
+We find that some genes are predisposed to subfunctional-
+ization. Genes that underwent subfunctionalization in X. laevis
+tend to be slowly evolving in other species, and conversely genes
+with an asymmetric pattern of expression evolution in X. laevis
+tend to evolve faster than expected in these outgroups. These
+results are only of medium statistical significance, partly because
+the limited size of the datasets weakens the power of the tests,
+and partly because of the necessity to correct for multiple testing.
+Nonetheless, we observed that the rate of sequence evolution
+influences the retention of some genes after WGD, and we
+propose a model to explain our observations.
+Genes retained in duplicate after WGD are more likely to
+belong to gene families with slow rates of sequence evolution (7,
+37, 38) or high expression levels (15, 36). Slow sequence evolu-
+tion is correlated with a high level (or wide breadth) of expres-
+sion in both yeast and vertebrates (33, 39), and both observations
+may be due to the same phenomenon. Davis and Petrov (37)
+were unable to find an obvious explanation for their discovery
+that slowly evolving genes are preferentially retained in dupli-
+cate, but they suggested that the bias may be an indirect
+correlation due to a third variable that is responsible for the
+retention and is correlated with the other two. Candidates for
+this third variable include the presence of many cis-regulatory
+regions (5, 40), of genes coding for multidomain proteins (41),
+and pleiotropic genes (model 3 in ref. 42). Other models predict
+that genes with a particular function, such as regulatory genes
+(43), should be retained in duplicate more often than expected
+after WGD. Alternatively there may be a direct relationship
+between the expression level (or the rate of sequence evolution)
+and the propensity to be retained in duplicate. Highly expressed
+genes may be retained in duplicate after WGD simply because
+they are beneficial for gene dosage (15). We discuss below that
+the rate of evolution seems to be directly responsible for
+double-copy retention in Xenopus, at least for the subset of gene
+pairs whose expression is divergent.
+We have shown that slowly evolving genes are more subject to
+subfunctionalization. Theoretical studies of subfunctionalization
+51 478
+226 3079
+H: 32
+L: 19
+H: 230
+L: 248
+Dr2
+Dr1
+human
+Dr
+human
+Dr2
+Dr1
+human
+St
+Xl2
+Xl1
+Dr
+human
+St 
+Xl2
+Xl1
+S: 4
+N: 39
+A: 7
+S: 14
+N: 426
+A: 35
+XX
+St 
+Xl
+?
+St 
+Xl
+?
+DD D
+DD D
+XX
+XX
+X
+DDD
+a
+b
+c
+d
+Fig. 4. Comparison of genes retained in double-copy in X. laevis and in
+zebrafish shows that the two independent WGDs do not have independent
+outcomes. (a) 529 triplets with two copies in X. laevis (designated XX) were
+sorted into groups whose orthologs in zebrafish are double-copy or single-
+copy (designated DD and D, respectively). Zebrafish gene pairs (Dr1 and Dr2)
+in the same Homolens family were attributed to the teleost WGD if their
+duplication is older than the speciation of zebrafish and pufferfish. (b) 3305
+doublets (designated X) for which we could not find a second copy in X. laevis
+were sorted similarly according to their duplication status in zebrafish. (c)
+Distribution of the 529 XX triplets by their expression level in S. tropicalis (two
+classes: H, high; L, low) and their duplication status in zebrafish. (d) Distribu-
+tion of the 529 XX triplets by their pattern of expression evolution (three
+classes: S, subfunctionalization; A, asymmetric partitioning; N, neither) and
+their duplication status in zebrafish.
+8336  www.pnas.orgcgidoi10.1073pnas.0708705105 Se´mon and Wolfe
+do not predict that genes becoming subfunctionalized should
+evolve more slowly than others before duplication (5, 40). On the
+contrary, subfunctionalization is supposed to be a neutral event
+that occurs because of neutral mutations impairing different
+subfunctions in the duplicates. Because we correct for expression
+bias (Fig. 3), we show more exactly that among a pool of genes
+with the same level of expression, slowly evolving genes are more
+likely to be subfunctionalized, and fast evolving genes are more
+likely to have an asymmetric pattern of expression evolution. We
+can extrapolate that genes that are subfunctionalized are going
+to be retained in two copies in the genome (both copies are
+necessary to perform the ancestral function), but, in contrast, it
+is likely that many genes with an asymmetric pattern of evolution
+of expression will eventually return to single-copy state. This is
+confirmed by our comparison between WGDs in Xenopus and
+zebrafish: subfunctionalized genes in Xenopus, but not genes
+with an asymmetric pattern of expression evolution, are retained
+in two copies more than expected in zebrafish.
+These observations lead us to propose that slowly evolving
+genes were more easily subfunctionalized in X. laevis and there-
+fore more easily retained long after WGD. Our model of gene
+evolution after WGD in X. laevis is illustrated in Fig. 5, which is
+based on the assumption that the WGD was an allopolyploidiza-
+tion, as is most likely (26, 27). Most models to explain gene
+retention after WGD postulate that the two copies are equal at
+birth (e.g., refs. 5, 43) but this is not true in the case of
+allopolyploidization. In our model, two diverging populations
+accumulate sequence differences, but to a greater extent in
+faster-evolving genes than in slower-evolving genes. When their
+two genomes are merged by allopolyploidization, the slower-
+evolving loci have accumulated fewer substitutions so the two
+copies may still be interchangeable and subfunctionalization can
+occur. In contrast, in the faster-evolving genes it is more likely
+that there are functional differences between the two copies, and
+one of them functions better than the other. If so, it may be
+deleterious for the better-functioning gene copy to lose any of its
+subfunctions. Such a situation will prevent subfunctionalization
+from happening; instead, the worse-functioning gene copy will
+be lost completely. In X. laevis, we observe the consequences of
+an allopolyploidization of medium age, where nearly half the
+genes are still in duplicate. For the fast-evolving genes in this
+genome we tend to see an asymmetry in the expression patterns
+and we anticipate that the worse-functioning copy will be lost
+eventually. Our observations and our model contradict a previ-
+ous hypothesis by Spring (44), who suggested that slower-
+evolving genes would be more redundant at the time of al-
+lopolyploidization and therefore easier to lose.
+Note that our model is also valid for an autopolyploidization
+or any other kind of gene duplication, if the genes can survive in
+duplicate long enough to attain sequence divergence. In each
+case the genes with slower rates of nonsynonymous substitution
+are expected to remain equivalent (and therefore prone to
+subfunctionalization) for a longer time. This hypothesis is sup-
+ported by our laboratory’s previous work on WGD in yeast,
+where we found that slow-evolving genes retained their inter-
+changeability for a longer time period after WGD than fast-
+evolving genes (45, 46). If this idea is correct it can account for
+the preferential retention of slow-evolving genes after any kind
+of duplication, as seen by Davis and Petrov (37). Thus, subfunc-
+tionalization may be a force in the long-term evolution of
+duplicated genes, in addition to its originally postulated role (5)
+in their initial preservation.
+Methods
+The methods we used for stringent EST clustering, building triplets of homol-
+ogous Xenopus genes, establishing orthology relationships, and estimating
+rates of sequence evolution are described in SIMethods. The derivation of our
+estimate that 32–47%of geneswere retained in double-copy inX. laevis after
+WGD is also given in SI Methods.
+To estimate expression profiles of frog genes, we classified the available
+Xenopus EST libraries into tissues (104 libraries in X. laevis, 51 in S. tropicalis)
+and identified the following 11 tissues (or developmental stages) as being
+common between the two species: brain, embryo, heart, kidney, liver, lung,
+ovary, skin, spleen, tadpole, and testis. By construction, each contig in a triplet
+is composedof ESTs thatwere used to infer its pattern of expression. Zebrafish
+EST analysis is described in SI Methods.
+To detect differences in expression level between the two copies in X. laevis
+(denoted Xl1 and Xl2) and S. tropicalis (St) in one tissue, we used Audic and
+Claverie’s Bayesian test (31), which takes the total number of ESTs sequenced in
+each tissue fromeach species into account.Wemodified the test slightly because
+thenull expectation is that theEST countofgene St shouldbe1.3 timesgreater
+(exact value: e0.26; see SIMethods) than the individual EST counts of its orthologs
+Xl1 and Xl2. To detect a significant decrease in the expression of gene Xl1 in a
+particular tissue we tested whether, for this tissue in the two species, (i) the EST
+countofXl1e0.26 is significantly lowerthanthecountofSt,and(ii) theESTcount
+of Xl2 e0.26 is not significantly lower than the count of St.
+ACKNOWLEDGMENTS. We thank G. Conant for help with computing of
+asymmetry of sequence evolution; L. Gue´guen for help with FDR and tree
+parsing; and K. Byrne, G. Conant, B. Cusack, C. Frank, J. Gordon, N. Khaldi, J.
+Mower, D. Scannell,M.Webster,M.Woolfit, and two anonymous referees for
+helpful comments. This work was supported by Irish Research Council for
+Science, Engineering and Technology and the Science Foundation Ireland.
+1. Otto SP,Whitton J (2000) Polyploid incidenceandevolution.AnnuRevGenet34:401–437.
+2. Jaillon O, et al. (2004) Genome duplication in the teleost fish Tetraodon nigroviridis
+reveals the early vertebrate proto-karyotype. Nature 431:946–957.
+3. Scannell DR, Byrne KP, Gordon JL, Wong S, Wolfe KH (2006) Multiple rounds of
+speciation associated with reciprocal gene loss in polyploid yeasts. Nature 440:341–
+345.
+ancestral
+gene 
+split of
+populations
+allopolyploid
+formation
+divergence
+fast-evolving 
+gene
+slow-evolving 
+gene
+time
+loss of one copy
+subfunctionalization
+Fig. 5. Model to explain why slowly evolving genes are preferentially
+subfunctionalized after allopolyploidization. The horizontal axis represents
+time. Initially two populations diverge and their genes begin to accumulate
+sequence differences, represented by color changes and vertical separation.
+They subsequently hybridize to form an allopolyploid. For a fast-evolving
+gene (Upper), the two copies are very different at the time of allopolyploid
+formation. They are unlikely to be functionally indistinguishable, and it is
+probable that only the better-functioning one of themwill be retained. For a
+slow-evolving gene (Lower), the two copies are less different and more likely
+to be able to replace one another functionally. Subfunctionalization (repre-
+sented by thinning of the lines) may result.
+Se´mon and Wolfe PNAS  June 17, 2008  vol. 105  no. 24  8337
+EV
+O
+LU
+TI
+O
+N
+4. Lynch M, Force A (2000) The probability of duplicate gene preservation by subfunc-
+tionalization. Genetics 154:459–473.
+5. Force A, et al. (1999) Preservation of duplicate genes by complementary, degenerative
+mutations. Genetics 151:1531–1545.
+6. Chain FJ, Evans BJ (2006) Multiple mechanisms promote the retained expression of
+gene duplicates in the tetraploid frog Xenopus laevis. PLoS Genet 2:e56.
+7. Brunet FG, et al. (2006) Gene loss and evolutionary rates following whole-genome
+duplication in teleost fishes. Mol Biol Evol 23:1808–1816.
+8. Steinke D, Salzburger W, Braasch I, Meyer A (2006) Many genes in fish have species-
+specific asymmetric rates of molecular evolution. BMC Genomics 7:20.
+9. Altschmied J, et al. (2002) Subfunctionalizationof duplicatemitf genes associatedwith
+differential degeneration of alternative exons in fish. Genetics 161:259–267.
+10. Cresko WA, et al. (2003) Genome duplication, subfunction partitioning, and lineage
+divergence: Sox9 in stickleback and zebrafish. Dev Dyn 228:480–489.
+11. Yu WP, Brenner S, Venkatesh B (2003) Duplication, degeneration and subfunctional-
+ization of the nested synapsin-Timp genes in Fugu. Trends Genet 19:180–183.
+12. de Souza FS, Bumaschny VF, Low MJ, Rubinstein M (2005) Subfunctionalization of
+expression and peptide domains following the ancient duplication of the proopio-
+melanocortin gene in teleost fishes. Mol Biol Evol 22:2417–2427.
+13. Chang L, Khoo B, Wong L, Tropepe V (2006) Genomic sequence and spatiotemporal
+expression comparison of zebrafish mbx1 and its paralog, mbx2. Dev Genes Evol
+216:647–654.
+14. Cusack BP, Wolfe KH (2007) When gene marriages don’t work out: Divorce by sub-
+functionalization. Trends Genet 23:270–272.
+15. Aury JM, et al. (2006) Global trends of whole-genome duplications revealed by the
+ciliate Paramecium tetraurelia. Nature 444:171–178.
+16. Woolfe A, Elgar G (2007) Comparative genomics using Fugu reveals insights into
+regulatory subfunctionalization. Genome Biol 8:R53.
+17. Casneuf T, De Bodt S, Raes J, Maere S, Van de Peer Y (2006) Nonrandom divergence of
+gene expression following gene and genome duplications in the flowering plant
+Arabidopsis thaliana. Genome Biol 7:R13.
+18. Blanc G, Wolfe KH (2004) Functional divergence of duplicated genes formed by
+polyploidy during Arabidopsis evolution. Plant Cell

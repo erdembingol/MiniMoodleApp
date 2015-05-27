@@ -30,6 +30,10 @@ class SessionsController < ApplicationController
   end
 
   def signup_control
+      if params[:profil_image].eql?("")
+        render 'signup'
+      end
+
       @student = Student.new
       @student.name = params[:name]
       @student.password = params[:password]

@@ -1,0 +1,299 @@
+ANTIMICROBIAL AGENTS AND CHEMOTHERAPY, July 1992, p. 1478-1482 Vol. 36, No. 7
+0066-4804/92/071478-05$02.00/0
+Copyright ©) 1992, American Society for Microbiology
+In Vitro Activity of Nonoxynol 9 on HeLa 229 Cells and
+Primary Monkey Cervical Epithelial Cells Infected with
+Chlamydia trachomatis
+DOROTHY L. PATTON,`* SHA-KE WANG,1 AND CHO-CHOU KUO2
+Departments of Obstetrics and Gynecology' and Pathobiology, 2 University of Washington,
+Seattle, Washington 98195
+Received 21 November 1991/Accepted 24 April 1992
+Nonoxynol 9 (non-9) is the active ingredient in a wide variety of vaginal contraceptive preparations. The
+manufacturer recommendation for optimal contraceptive practice is repeated application every 6 h. We studied
+the in vitro activity of non-9 against Chlamydia trachomatis (E/UW-5/Cx) and its toxicity against HeLa 229 cells
+and monkey cervical epithelial cells. With a contact time of 6 h, non-9 was toxic to HeLa cells at concentrations
+of 50 ,ug/ml or greater and to monkey cervical cells at 100 ,ug/ml or greater. Inhibitory effects of non-9 on
+extracellular chiamydiae were observed at concentrations of 50 ,ug/ml or greater. Inhibition of intracellular
+growth of chlamydiae in monkey cervical cells was observed at a nontoxic concentration of 50 ,ug/ml. Our
+studies show that non-9 has antichlamydial activity. However, owing to its toxicity to cervical cells in vitro, the
+effects of prolonged use of non-9 in vivo should be further studied.
+Chlamydia trachomatis is one of the most common sexu-
+ally transmitted pathogens. A contraceptive that is effective
+against chlamydiae would provide a means of birth control
+as well as prophylaxis against sexually transmitted diseases.
+Many in vitro studies on the antimicrobial activity of the
+active spermicide ingredient nonoxynol 9 (non-9) against C.
+trachomatis have been done in continuous cell lines. The
+results have been controversial. Non-9 is the active ingredi-
+ent in a wide variety of vaginal contraceptive foams, creams,
+jellies, and suppositories. Earlier in vitro studies using non-9
+have demonstrated antimicrobial activity against Neisseria
+gonorrhea (4, 12), Trichomonas vaginalis (4, 12), Trepo-
+nema pallidum (12), Candida albicans (13), Herpes simplex
+virus (2, 14), and Ureaplasma urealyticum (1). Many at-
+tempts have been made to assess such activity against C.
+trachomatis infection in vitro. Benes and McCormack (3)
+and Kelly et al. (8) have demonstrated inhibition of C.
+trachomatis growth in McCoy cell cultures. Cytopathologic
+effects on McCoy cells, a mouse line, have also been
+described (8). In contrast, data from Kappus and Quinn (7)
+and Knight et al. (9) have not demonstrated inhibition of C.
+trachomatis growth in cultures of the same cells. To under-
+stand the effects of non-9 on C. trachomatis infection
+further, we examined this active spermicide ingredient under
+more physiological conditions by using a continuous human
+cell line, HeLa 229, and primary monkey cervical epithelial
+cells to assess the toxicity of the drug and its bactericidal
+activity against C. trachomatis under conditions nontoxic to
+host cells.
+MATERIALS AND METHODS
+Contraceptive. The pure form of non-9 and the base
+ingredients used in this study were kindly provided by
+Advanced Care Products, Division of Ortho Pharmaceutical
+Corp., Raritan, N.J.
+Microorganism. The serovar E strain (UW-5/Cx) of C.
+trachomatis was used. The organisms were grown in HeLa
+* Corresponding author.
+229 cell cultures (10). An inoculum was partially purified by
+one cycle of differential centrifugation, which yielded 108 to
+109 inclusion-forming units of C. trachomatis organisms
+from a 32-oz (947-ml) culture bottle. A control inoculum was
+prepared from uninfected cultures processed as infected
+cultures. Serovar E was selected because it is the most
+common serovar of genital isolates (11).
+Monkey cervical epithelial cell culture. Monkey (Macaca
+nemestrina) cervix tissue was obtained from the Tissue
+Program at the Regional Primate Research Center at the
+University of Washington. The tissue was cut into small
+pieces and rinsed in warm Hanks balanced salt solution
+(GIBCO Life Technologies, Inc., Santa Clara, Calif.) con-
+taining 100 ,g of streptomycin, 100 U of penicillin, and 0.25
+,ug of amphotericin B per ml. After rinsing, the tissues were
+digested with 0.25% pronase at 37°C for 40 min. Subse-
+quently, thin layers of the cervical epithelium were peeled
+off of the underlying stroma by using fine forceps under a
+dissecting microscope. The epithelial layers were rinsed in
+serum-free Dulbecco's modified Eagle's medium (DS me-
+dium; GIBCO, Santa Clara, Calif.) and treated with 0.1%
+trypsin for 5 min at 37°C. The epithelium was then dissoci-
+ated into a single-cell suspension by repeated pipetting
+through a 25-gauge hypodermic needle. The cells were
+washed with culture medium that consisted of modified
+Eagle's medium (GIBCO) supplemented with 10% new
+horse serum and contained 200 U of penicillin and 2.0 mg of
+neomycin per ml (NHS). The cells were collected by cen-
+trifugation at 800 x g for 8 min. The cells suspended in NHS
+were counted with a hemacytometer and plated in a Rose
+chamber (6) at 1.5 x 106 per chamber or a four-well multidish
+(Nunclon, Roskilde, Denmark) at 106 per well. The cells in
+the Rose chamber were incubated at 37°C, and those in the
+four-well multidish were incubated at 37°C in a 2% CO2
+atmosphere saturated with moisture. The cell culture me-
+dium was replaced with penicillin-free NHS on day 2 or 3
+after culture and regularly three times per week thereafter.
+Cells reached a state of confluence by 5 to 7 days in culture
+and remained as such for 18 days without treatment or
+infection (see Fig. 1A).
+1478
+TOXICITY OF NONOXYNOL 9 FOR C. TRACHOMATIS 1479
+Toxicity assay. (i) HeLa 229 cells (continuous cell line).
+HeLa 229 cells grown on a 12-mm-diameter coverslip in a
+1-dram (4-ml) vial shell were treated with 0 to 150 p,g of
+non-9 per ml in chlamydial transport medium, sucrose-
+phosphate-glutamic acid medium, for 1 h at room tempera-
+ture to simulate the adsorption of C. trachomatis to HeLa
+cells during inoculation. The medium was then removed.
+The cell monolayers were either washed twice with Hanks
+balanced salt solution or not washed and cultured with
+Eagle's minimum essential medium (GIBCO) containing
+10% fetal bovine serum and 100 ,g each of streptomycin and
+vancomycin per ml (MEM) for 72 h at 37°C.
+HeLa 229 cell monolayers were also incubated with 0.1 to
+150 ,ug of non-9 per ml or the base (inactive ingredient) at 2
+and 5% in MEM for 6, 24, or 72 h at 37°C to simulate the
+culture of infected cells as in the assay of non-9 for antichla-
+mydial activity described below.
+(ii) Monkey cervical epithelial cells. Monolayers of monkey
+cervical epithelial cells were incubated with 0 to 1,000 ,ug of
+non-9 per ml in penicillin-free NHS for 1 or 6 h at 37°C. After
+1 or 6 h of contact with non-9, the cell monolayers were
+washed twice, overlaid with penicillin-free NHS, and incu-
+bated for 48 h at 37°C.
+(iii) Evaluation of cellular integrity. Assessments of cell
+death were based on morphological criteria (5). The epithe-
+lial cells were in a subconfluent state for the first 4 days. By
+days 5 to 7, the cultures had become a confluent monolayer
+of epithelial cells and they remained confluent for 18 days.
+Multilayering and cell differentiation followed the confluence
+period for about 7 days. Toxicity was assessed by calculating
+the percentage of cell death under x400 magnification after
+the cells were fixed with absolute methanol and stained with
+Giemsa stain (Fig. 1B).
+Assay of antichlamydial activity. The antichlamydial activ-
+ity of non-9 was evaluated in two systems: inhibition of
+organism growth in cell culture and toxicity to extracellular
+organisms.
+For inhibition of cell culture growth of chlamydiae, 5- to
+7-day-old monkey cervical cell monolayers were inoculated
+with 105 infection-forming units of C trachomatis. The
+inoculated cells were overlaid with penicillin-free NHS
+containing 50 ,ug of non-9 per ml and incubated for 6 h at
+37°C. The culture medium was removed. The cell monolay-
+ers were washed with Hanks balanced salt solution and
+overlaid with penicillin-free NHS containing no non-9 and
+further incubated for 48 h at 37°C. Half of each culture was
+stained for inclusion counts, and the other half was har-
+vested and the yield of infectious organisms was assayed by
+titration in HeLa cell cultures without non-9. For passages,
+the culture medium was removed and the cells were har-
+vested in 0.3 ml of sucrose-phosphate-glutamic acid medium
+by scraping with a Pasteur pipette. New HeLa cell mono-
+layers were inoculated with the harvested cells. After the
+infected cells were fixed with absolute methanol and stained
+by Giemsa, the antichlamydial activity of non-9 was deter-
+mined by counting (under x400 magnification) the cytoplas-
+mic inclusions in 10 randomly chosen fields per well among
+eight wells per experiment. Each field contained 100 cells.
+For the toxicity assay, chlamydial organisms were treated
+with 50 p,g of non-9 per ml for 6 h at 37°C prior to inoculation
+of HeLa cells. Control organisms treated with buffer con-
+tained no non-9. The viability of non-9-treated or control
+organisms was tested by the cell culture infectivity assay as
+described above.
+TEM. The condition of primary cultures of monkey cer-
+vical cells was also assessed by transmission electron mi-
+FIG. 1. (A) HeLa 229 cells treated with 25 Fg of non-9 per ml in
+MEM. The cells were incubated for 6 h. Toxicity was 0%. Magni-
+fication, x40. (B) HeLa 229 cells treated with 125 pg of non-9 per ml
+in sucrose-phosphate-glutamic acid medium for 1 h. The cells were
+washed twice in Hanks balanced salt solution and incubated for 72
+h. Toxicity was 50 to 60%. Magnification, x40.
+croscopy (TEM). For TEM, the cells were fixed with Kar-
+novsky's fixative and then osmium tetroxide. The cells were
+then stained with uranyl acetate, dehydrated through a
+graded series of alcohol washes, and embedded in Epon
+(Ernest F. Fullam, Schenectady, N.Y.) en bloc. Thin sec-
+tions were stained with uranyl acetate and lead citrate and
+viewed in a CM 10 TEM (Philips Electronic Instruments,
+Mahwah, N.J.).
+Statistics. Data were evaluated by using a chi-square test
+for a two-by-two contingency table.
+RESULTS
+Toxicity of non-9 for cultured cells. For 1 h of contact time
+without washing followed by incubation for 72 h without
+non-9, non-9 was toxic to HeLa 229 cells at concentrations
+of 30 to 50 jig/ml. A toxicity of 50 to 99% was observed.
+Concentrations of non-9 of less than 12.5 p,g/ml were non-
+toxic. HeLa cells remained normal. Residual drug caused
+toxicity in the unwashed cultures. At concentrations of less
+than 50 pg/ml for 1 h of incubation and two washes, no cell
+death was observed. In comparison, 30 to 80% cell death
+was observed at 100 to 150 ,g non-9 per ml for 1 h of contact
+time followed by removal of the residual non-9 by two
+washes (Fig. 1 and Table 1).
+The toxicity of non-9 increased with increasing concentra-
+tions and/or increasing contact times (Table 1). Concentra-
+tions of non-9 of c25 ,g/ml for 6 h of contact time did not
+VOL. 36, 1992
+ANTIMICROB. AGENTS CHEMOTHER.
+TABLE 1. Toxicity of non-9 for HeLa cells
+Duration of drug Concn of non-9 Cell death
+contact (hr) (p.g/ml) (%)
+1 50 0
+100 30
+150 80
+6 <25 0
+50 20
+75 75
+100 90
+24 25 99
+72 <1.25 0
+result in cell death. However, 20, 75, and 90% cell death
+appeared when the concentrations of non-9 were increased
+to 50, 75, and 100 ,ug/ml, respectively. When the contact
+time was prolonged to 24 h, the concentration that was
+nontoxic at 6 h of exposure (25 ,ug/ml) became toxic and
+caused 99% cell death. After reduction of the concentration
+to .1.25 jig/ml, HeLa cells showed normal morphology after
+72 h of incubation in the presence of non-9.
+No toxicity was observed when HeLa cells were treated
+with the inactive ingredient base at 2 and 5% for 72 h at 37°C.
+Primary cultures of monkey cervical epithelial cells were
+more tolerant to non-9 (Table 2). After 1 h of contact time,
+no cell death was observed at concentrations of up to 150 ,ug
+of non-9 per ml. However, 80% cell toxicity was observed
+with a concentration of 500 ,ug/ml. Incubation with 100 ,ug/ml
+for 6 h caused 10% cell toxicity, while 500 ,ug/ml caused 80%
+cell death. Concentrations that were nontoxic for 6 h of
+contact were less than 50 p,g/ml. With prolonged contact
+time, the concentration of non-9 must be reduced to avoid
+toxicity. For 48 h of contact, concentrations of 50 to 100 ,ug
+of non-9 per ml caused 20 to 100% cell death. Concentrations
+of 10 ,ug/ml were nontoxic.
+Toxicity to extracellular organisms. Significant inhibition of
+C trachomatis infectivity by non-9 was also apparent after
+C trachomatis organisms were treated with 50 p,g of non-9
+per ml for 6 h at 37°C. The non-9 treated organisms were less
+infectious than untreated organisms in four of five experi-
+ments. The mean percentage of HeLa cells with inclusions(± the standard deviations) were 14.7 ± 7.1 and 27.2 ± 13.5
+among those infected with non-9-treated and untreated C
+trachomatis, respectively (n = 5; P < 0.001). This condition
+simulates the recommended use of the spermicide every 6 h.
+Inhibition of intracellular multiplication of organisms. Sig-
+TABLE 2. Toxicity of non-9 for monkey cervix cells
+Duration of drug Concn of non-9 Cell death
+contact (hr) (,ug/ml) (%)
+1 .150 0
+500 80
+6 .50 0
+100 10
+500 80
+48 c10 0
+50 20
+100 100
+nificant inhibition of C. trachomatis infection by non-9 was
+found after infected monkey cervical cells were incubated
+with MEM containing non-9 at the nontoxic concentration of
+50 ,ug/ml for 6 h at 37°C. The mean percentage of monkey
+cervical epithelial cells with inclusions (+ the standard
+deviations) were 24 + 4.0 and 31 ± 4.3 among those infected
+with first-passage non-9-treated and untreated C. trachoma-
+tis organisms, respectively (n = 6; P < 0.001), and they were
+13 ± 5.4 and 22 ± 4.6, respectively (n = 6; P < 0.001),
+among those infected with second-passage organisms.
+Ultrastructural findings. Ultrastructural findings showed
+effects of non-9 on chlamydiae as well as host cells. Infected
+cells treated with 100 p,g of non-9 per ml for 1 h showed
+well-formed inclusions. However, the inclusions contained
+reduced numbers of elementary bodies (EBs). When the
+concentration of non-9 was increased to 150 ,ug/ml, inclu-
+sions contained only a few mature EBs and most of the
+particles were reticulate bodies, with an occasional interme-
+diate form within the inclusions (Fig. 2C and D). Cytotoxic-
+ity for infected cells compared with infected control cells not
+treated with non-9 was not observed at either concentration
+of non-9 tested (Fig. 2B). The epithelial cells remained intact
+and were characterized by homogeneous cytoplasm that
+contained numerous mitochondria and ribosomes (Fig. 2A).
+DISCUSSION
+We assessed the antimicrobial properties and toxicity of
+non-9 and the base components against C. trachomatis in
+cervical epithelial cells in vitro. The cytotoxicity of non-9 did
+not allow evaluation beyond 25 ,ug/ml for 6 h of contact in
+HeLa 229 cells. The concentration could be increased to 100
+,ug/ml with minimal cellular toxicity for monkey cervical
+cells. With regular use of non-9 over-the-counter contracep-
+tives, much higher concentrations of the spermicide than
+those used in this study are achieved in the vagina and
+cervix.
+Studies done by Kappus and Quinn (7) did not demon-
+strate any effect of non-9 or the base components on EBs of
+C. trachomatis at non-9 concentrations of 20 to 500,000
+gg/ml for up to 3 h of contact. In addition, they found no
+inhibition of growth when infected McCoy cells were ex-
+posed to non-9 for 2 or 72 h. Cytotoxicity to McCoy cells
+was observed at concentrations of 14 to 31 ,ug/ml (0.0014 to
+0.0031%). In our study, cytotoxicity was also demonstrated
+in HeLa cells at concentrations of >25 p,g/ml (0.0025%).
+Monkey epithelial cells were more tolerant and sustained no
+toxicity at concentratio

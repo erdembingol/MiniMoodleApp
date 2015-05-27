@@ -1,0 +1,309 @@
+Clin Exp Immunol 1993; 91:495-499
+Soluble plasma IL-2 receptors and malaria
+E. M. RILEY, P. ROWE*, S. J. ALLEN & B. M. GREENWOOD Medical Research Council Laboratories, Fajara,
+The Gambia, and *Tropical Health Epidemiology Unit, London School of Hygiene and Tropical Medicine, London, UK
+(Acceptedfor publication 4 December 1992)
+SUMMARY
+Plasma levels of soluble IL-2 receptor (sIL-2R) were measured by immunoassay in 180 individuals,
+aged 1-70 years, living in a malaria-endemic community in West Africa. sIL-2R levels were compared
+with age, malaria parasitaemia, malaria-associated morbidity and cellular immune responses to
+Plasmodiumfalciparum antigens. Plasma levels of sIL-2R were independently associated with both
+age and patent malaria parasitaemia. No significant association was observed between IL-2R levels
+and concurrent malaria morbidity (i.e. fever associated with malaria), but the number of individuals
+with clinical malaria at the time of sampling was small. Although there was no association between
+plasma sIL-2R levels and in vitro proliferative responses of peripheral blood mononuclear cells
+(PBMC) to a number of defined malaria antigens, we did find a significant negative association
+between sIL-2R and in vitro proliferation of unstimulated PBMC. High levels of sIL-2R (up to 5500
+U/ml) were detected in the plasma of malaria-infected individuals; this is indicative of a vigorous
+cellular immune response to malaria antigens in vivo and does not support the notion that malaria
+infections are generally immunosuppressive. Indeed, we found that, at the low levels of parasitaemia
+present in study subjects, there was no significant difference in the mean proliferative response to
+malaria antigens in infected subjects when compared with uninfected subjects.
+Keywords malaria IL-2 IL-2R immunosuppression
+INTRODUCTION be detected by specific immunoassay [15]. The concentration of
+soluble IL-2R (sIL-2R) in plasma or serum is thus an indication
+Acute malaria in man, caused by infection with Plasmodium of the degree of T cell activation in vivo, and correlates with
+falciparum, appears to induce a temporary state of reduced clinical status in both infectious and malignant diseases [16,17].
+immunocompetence and increased susceptibility to concomi- High levels of sIL-2R have been reported in patients with
+tant infections [1] accompanied by changes in many parameters P.falciparum and P. vivax malaria [18-21], and it has been
+of immune function, such as decreased numbers of circulating suggested that sIL-2R may bind free IL-2 and contribute to the
+T lymphocytes [2,3] and depression of in vitro peripheral blood observed suppression of malaria-specific cellular responses
+mononuclear cell (PBMC) proliferation in response to stimula- [20,21].
+tion by malaria antigens [4-7]. Various explanations have been In this study we have examined the relationship between
+proposed for this phenomenon, including migration of acti- soluble IL-2 receptors and lymphoproliferative responses to
+vated T cells from the peripheral blood to the spleen and liver malaria antigens in a malaria-endemic population with differing
+[8,9], activation of CD8+ suppressor cells [10], and the general- levels of clinical immunity to malaria by comparing individual
+ized physiological effects of febrile disease [11]. plasma sIL-2R levels with in vitro proliferative responses of
+The proliferation of activated T lymphocytes is regulated by PBMC to malaria antigens and unrelated antigens and mito-
+an autocrine pathway involving synthesis and secretion of IL-2 gens. We have also examined the relationship between plasma
+(T cell growth factor) and binding of IL-2 to specific cell surface IL-2R levels, age, malaria parasitaemia and clinical symptoms
+receptors (IL-2R) [12]. Induction of both IL-2 and its receptor of malaria infection.
+requires antigen-specific activation of the T cell by autologous
+antigen-presenting cells [13,14]. After binding of IL-2 to the SUBJECTS AND METHODS
+receptor, a subunit ofIL-2R is shed from the cell surface and can
+Subjects
+Correspondence: E. M. Riley, Institute of Cell, Animal and Venous blood samples were collected from approximately 180
+Population Biology, Division of Biological Sciences, Ashworth Labora- individuals, aged from 1 to 70 years, living in rural villages close
+tory, University of Edinburgh, West Mains Road, Edinburgh EH9 3JT, to the Gambia River in West Africa. The donors belonged to
+UK. three distinct ethnic groups, Wollof, Fula and Mandinka. The
+495
+496 E. M. Riley et al.
+samples were collected in November, at the end of the annual horseradish peroxidase. Test values are calculated by reference
+malaria transmission season. The epidemiology of malaria in to a known standard; the assay is accurate over the range 50-
+this region has been described in detail [22]. All subjects were 1600 U/ml. Samples giving values > 1600 U/ml were diluted
+examined; a venous blood sample was collected and a blood film 1: 10 in sample diluent and retested.
+was made. Blood films were stained with Giemsa's stain and
+examined for malaria parasites. Statistical analysis
+None of the older children (>9 years) or adults showed Lymphoproliferative responses were measured as ct/min. The
+clinical symptoms of malaria infection. Axillary temperature geometric mean ct/min of triplicate values for each antigen or
+was recorded in children aged 8 years or under and clinical mitogen was divided by the geometric mean ct/min of unstimu-
+malaria diagnosed in those with fever (temperature > 37 50C) lated control wells to obtain a stimulation index (SI). Since the
+and high parasitaemia (> 5000 parasite/pl blood). SI values for any particular antigen were not normally distri-
+Ethical permission for this study was obtained from the buted among the subjects, the natural logarithm (logSI or LSI)
+MRC/Gambia Government medical ethics review committee. was used for statistical analysis [25]. Similarly, loge values of
+IL-2R were taken to normalize the distribution. Quantitative
+Sample preparation data were analysed as a comparison of means using Student's t-
+Plasma was separated from heparinized blood and frozen at test. Categorical data (grouped age, IL-2R values dichotomized
+- 20'C. Mononuclear cells were isolated by density gradient into greater than the population mean or less than the
+centrifugation (Lymphoprep, Nycomed, Norway), washed and population mean, sex, ethnic group, presence or absence of
+suspended in complete culture medium with 10% normal parasitaemia or fever) were analysed using a x2 statistic with
+human serum, at a concentration of 106 cells/ml [6]. continuity corrections.
+To allow for the possible confounding effects of parasitae-
+Lymphocyte proliferation assays mia, age, sex and ethnic group, a multiple regression of logeIL-
+Mononuclear cells were aliquoted into round-bottomed, 96-well 2R on LSI was made allowing for all the above parameters and a
+microtitre plates (105 cells/well). Antigens and mitogens were multiple regression of logIL-2R on parasitaemia was made
+added at optimal concentration to triplicate wells and the plates allowing for age, sex and ethnic group. To examine the
+incubated at 37°C, in 5% Co2 for 7 days. Eighteen hours before correlation between the levels of parasitaemia and logeIL-2R,
+harvesting, wells were pulsed with 1 yCi 3H-thymidine (Amer- the level of parasitaemia was ranked and Spearman's non-
+sham, UK). Cells were harvested onto filter mats and incorpora- parametric test was used.
+tion of 3H was measured by liquid scintillation counting.
+RESULTS
+Antigens and mitogens
+Three antigens derived from the asexual blood stages of p. Clinical and parasitological findings
+falciparum were used in lymphoproliferation assays. F32 repre- All older children and adults were clinically well but acute
+sents a complex of soluble exoantigens which are released into malaria (fever and parasitaemia) was diagnosed in 7/56 children
+the culture medium, during schizont rupture, by in vitro cultures aged 8 years or under.
+of laboratory-adapted parasites of the F32 isolate. These Parasitaemia was more common in children than in adults,
+antigens were affinity purified using IgG precipitated from the and children tended to have higher parasite densities than adults
+serum ofmalaria-immune West Africans [23] and were used at a (Fig. 1). However, in general, mean parasite densities were low
+final protein concentration of 30 yg/ml. The antigens were in comparison with those reported in previous studies of the
+kindly provided by Dr P. H. Jakobsen. relationship between malaria infection and cellular immune
+MSP1 is the major merozoite surface glycoprotein of P. responses [4-7]. The median positive parasite density was 1000/
+falciparum [24]. MSPI was affinity purified from cultured ,l in children (less than 15 years of age) and 150/pl in adults.
+parasites using MSPl-specific MoAbs and was used in culture at
+a concentration of 1 yg/ml. Plasma sIL-2R levels
+pMEl 1 is a recombinant protein produced in Escherichia Levels of plasma sIL-2R ranged from 270 U/ml to 5500 U/ml
+coli and fused to P galactosidase and represents the C-terminal (geometric mean = 1050 U/ml). There was no significant differ-
+42 kD processing product of MSPl [24]. pMEl 1 was used at a ence in sIL-2R levels between male and female donors. Plasma
+concentration of 1 5,yg/ml. /#galactosidase was used as a control sIL-2R levels did appear to vary with ethnic group, being
+for calculation of the specific proliferative response. Both MSPl highest in Wollofs and lowest in Mandinkas (X2 = l10998,
+and pMEl 1 were kindly provided by Dr A. Holder. d.f. = 2, P < 0 005), but this difference was of only marginal
+Purified protein derivative of Mycobacterium tuberculosis significance after correction for age and parasitaemia (t= 1 88,
+(PPD, 100 U/ml; Evans Medical, Horsham, UK) and Candida P < 0-075).
+albicans extract (1:1000 v/v; Hollister-Stier, IN) were used as Relationship between sIL-2R levels and age. There was a
+control recall antigens. Phytohaemagglutinin (PHA, 2 pLg/ml; highly significant negative association between logesIL-2R and
+Difco, Detroit, MI) was used as a positive control. age (Fig. 2) which persists after allowance has been made fordiffering levels of parasitaemia (see legend to Fig. 2).
+IL-2R assays Relationship between sIL-2R levels and parasitaemia. A
+Plasma IL-2R was measured by enzyme immunoassay using a significant positive association was observed between logesIL-
+commercial kit (CELLFREE Interleukin-2 Receptor Test, T 2R and parasitaemia (Table 1). Individuals with parasitaemia
+Cell Sciences, Cambridge, MA). The assay is a sandwich ELISA (of any level) had a significantly higher mean level of sIL-2R
+using two MoAbs to IL-2R, one of which is conjugated to than individuals with no parasitaemia. Similarly, there was a
+IL-2R and malaria 497
+70 - Table 1. Relationship between mean log&IL-2R andlevel of parasitaemia
+60 Level of parasitaemia n Mean logIL-2R sem.
+0 81 6,724 0<068
+500 1-50 16 7t005 0141
+51-500 23 7a051 0-150
+-2 501-2500 18 7507307117
+2501-5000 17 7-217 0-158240
+>5000 18 7-459 0-130
+30 x for trend= 176, P<0g0001.
+a-
+20 0-08-2-92), the number of individuals in each group was small
+and the difference was not statistically significant )2 = 0d25).
+10 In vitro lymphoprolete erative responses
+Cells from all donors responded to the T cell mitogen PHA. The
+mean LSI of both the PHA response and the PPD response
+0 1-2 decreased slightly with increasing age, after the age of 25 years,34 5-6 78 9-14 5-24 25-44 45+ but in neither case was this statistically significant. The relation-
+Age (yea rs) ship between age and LSI for the other antigens was very
+Fig. 1. Prevalence of malaria parasitaemia by age in the study variable, although responses to pME( 1 tended to be highest
+population. U, Any parasitaemia; u, >50 parasites/pl; ,>r500 among children aged 3-4 years and among individuals aged 15
+parasites/pl. years or more (tm= 195, P<005). These data are shown in
+Table 2.
+Relationship between lymphoproliferative responses andpar-
+significant correlation between the level of parasitaemia and the asitaemia. There was no association between the level of
+level of sIL-2R (Spearman correlation coefficient, r =03866, spontaneous lymphoproliferation in unstimulated wells (back-
+d.f. = 171, P < 00001). The relationship between parasitaemia ground counts) and the presence or absence of parasitaemia,
+and sIL-2R remains significant after correction for the effect of even when relatively high parasitaemias were considered (Table
+age (t= 2-80, P<O0-005). 3). Similarly, there was no association between mean LSI values
+Relationship between sIL-2R levels and malaria morbidity. for any of the malaria antigens and the presence or absence of
+Only seven of the 56 children aged 8 years or under had clinical parasitaemia (Table 3). There was, however, a marginally
+malaria at the time of blood sampling, and it was thus not significant association between high levels of parasitaemia and
+possible to draw any clear conclusions about the relationship higher than average responses to the mitogen PHA (t =2-0,
+between sIL-2R and morbidity. Although parasitaemic indi- P < 0c05).
+viduals with high sIL-2R levels (logsIL-2R > 695) were slightly Relationship between lymphoprolsferative responses and
+more likely to be febrile than were parasitaemic individuals with plasma sIL-2R levels. There was a significant negative correla-
+low sIL-2R levels (logeslL-2R <6-95; odds ratio 0-5, 95% CI tion between background ct/mmn values and sIL-2R levels
+(r = - 0-243, P < O0O02). In contrast, there was a significant
+positive association between plasma levels of sIL-2R and
+8 proliferative responses to both PHA and PPD (t = 3.27,
+P<* 00* and t=1-96, P=005, respectively). For all the other
+7.5 -antigens tested (malaria antigens and C. albicans) there was no
+Age (yhsignificant correlation (either negative or positive) between LSI
+represent s~e~m. he negtive asociatin betwen 1° Rand ag is reand sIL-2R (data not shown). This remained the case after
+8'7 -correction for confounding factors by multiple regression.
+However, among parasitaemic individuals there is some evi-
+dence of a negative relationship between sIL-2R and LSI for
+6-5
+-pMElIl [t=2.1ll, P<005).
+6 DISCUSSION
+r)-a 7
+Age (yearsI We av shwntht, n91ppultin epoedto ndmi
+498 E. M. Riley et al.
+Table 2. Lymphoproliferative responses to mitogen (phytohaemagglutinin (PHA)), antigen (purified
+protein derivative (PPD), Candida, malaria antigens) expressed as mean logeSI (LSI; + s.e.m.) in malaria-
+exposed individuals of different ages.
+Age* n PHA PPD Candida MSPl pMEl 1 F32
+1-2 9 478+038 1-25+035 1*11+044 033+021 030+0-24 029+0-28
+3-4 12 4 96+0 28 1-07+0 33 0 74+0 35 0-44+0-15 0-54+0 34 -0 59+0 40
+5-6 15 4 55+0 35 1 08+0 22 0 61 +0 35 -0-08+0 16 0 24+0 33 - 1 02+0 50
+7-8 20 4-26+0 30 1 31 +0 27 1 19+0 29 0 42+0 23 0 29+0 22 0 17+0 33
+9-14 39 484+0 17 086+0 18 076+028 039+0 14 041+0 13 0 18+0 13
+15-24 26 4 40+0 23 1.42+0 30 1 09+0 23 0 54+0 14 0 50+0 15 0 54+0 24
+25-44 29 3.76+0-22 1 02+0-30 0-57+0 24 0 35+0 18 0 64+0 18 -0-11 +0 22
+45+ 21 2 95+0 27 0-38+0 40 -0 07+0 35 0-01 +0 22 0 81 +0 21 - 1-23+0 52
+* In years.
+Table 3. Relationship between lymphoproliferative responses (logSI (LSI);
+s.e.m.) and malarial parasitaemia
+Parasitaemia
+Antigen None Low (< 5000 /1il) High (> 50004pl)
+None (background)* 6 054 (0 119) 5 729 (0-174) 5 664 (0 305)
+PHA 4 094 (0 124) 4 569 (0 192) 4 842 (0-286)
+MSPI 0 289 (0 089) 0 330 (0 112) 0 595 (0-272)
+pMEll 0-475 (0-088) 0 455 (0 127) 0 595 (0 272)
+F32 -0 186 (0 154) -0 163 (0 193) 0 253 (0 262)
+Candida 0 817 (0 121) 0 247 (0-264) 1 249 (0-362)
+PPD 1 081 (0 121) 0674 (0228) 1 535 (0307)
+* Values for background counts are given as mean 1lge ct/min and not LSI.
+PHA, Phytohaemagglutinin; PPD, purified protein derivative.
+malaria [19-22], but the numbers of individuals studied were not responds vigorously to the presence of the parasites, with
+large enough to demonstrate any clear association between extensive lymphocyte activation and clonal proliferation. It is
+absolute levels of plasma sIL-2R and parasite density. In this difficult to reconcile these high plasma IL-2R levels with the
+study we have shown that IL-2R levels are more closely related commonly held belief that blood stage malaria infections are
+to parasite density than to the presence or absence of clinical profoundly immunosuppressive [1]. The decrease in in vitro
+signs of malaria. Indeed, there was no significant difference in proliferative responses to malaria antigens in acute cases of
+sIL-2R levels between children with clinical malaria and those malaria [4-7] has been attributed to malaria-induced defects in
+wijth asymptomatic parasitaemia. Thus it would appear that the the IL-2/IL-2R autocrine system [21,22,27], since in vitro
+presence of sIL-2R in plasma may be directly related to the responses to malaria antigens cannot be enhanced by exogenous
+presence of malaria parasites. IL-2 [21,27] and freshly isolated PBMC do not express IL-2R
+The fact that sIL-2R levels are independently negatively [21]. It has further been suggested that circulating IL-2R may
+associated with age may be explained by the fact that children mop up both endogenous and exogenous IL-2 and thereby
+are more susceptible than adults to a range of infections (in inhibit lymphocyte proliferation [20,21]. However, in the experi-
+addition to malaria) which may initiate a lymphoproliferative ments cited above [4-7] and those described here, PBMC were
+response. It is also possible that children who were not overtly extensively washed and suspended in culture medium contain-
+parasitaemic had recently been infected with malaria. Forty-five ing fresh human serum from healthy, malaria-unexposed
+of the 51 children in this study aged between 3 and 8 years had donors (with IL-2R levels ranging from 500 to 900 U/ml). Cells
+been treated for clinical malaria during the preceding malaria from some donors responded to the malaria antigens whilst cells
+season. After drug therapy to destroy parasites in the blood, from other donors did not. Overall, there was no correlation
+particulate or soluble parasite antigens may continue to circu- between IL-2R levels and in vitro responses to malaria antigens,
+late for some time [26] and may lead to continuing immune indicating that exposure to high levels of IL-2R in vivo does not
+activation. render cells unresponsive to antigen in vitro. On the contrary,
+The presence of sIL-2R in serum or plasma is indicative of an high levels of IL-2R appeared to be associated with increased
+ongoing cellular proliferative response in vivo [17]. This suggests responses to PPD and to the mitogen PHA. We did, however,
+that the cellular immune system of malaria-infected individuals notice that cells from donors with high levels of circulating
+IL-2R and malaria 499
+sIL-2R showed significantly lower levels of spontaneous pro-
+liferation (i.e. unstimulated, background incorporation of 3H-
+thymidine) than did cells from donors with low levels of sIL-2R.
+This suggests that in donors with parasitaemia, and consequent
+high levels of sIL-2R, cells which have been activated in vivo may
+be withdrawn from the peripheral circulation-as has been
+shown previously by Hviid et al. [9].
+This study also demonstrates that malaria parasitaemia is
+not necessarily associated with depressed PBMC responses to
+malaria antigens. There was no evidence that lymphoprolifera-
+tive responses were inhibited by concurrent parasitaemia. This
+may well be a reflection of the rather low parasitaemias found in
+the study group, but may also reflect the low frequency of
+symptomatic infections. Previously we have observed a marked
+decrease in responses to malaria antigens (including F32) in
+children with acute symptomatic malaria where mean positive
+parasite densities were several fold higher than those observed
+here [6]. An association between the degree of suppression of
+malaria-specific responses and severity of clinical disease has
+been noted in other studies [28], and it seems likely that factors
+related to the acute febrile response to malaria parasites may
+contribute to the activation and sequestration of malaria-
+reactive cells.
+ACKNOWLEDGMENTS
+We would like to thank the residents ofthe Kataba hamlets of the Upper
+Baddibu region of The Gambia for participating in this study and the
+staff of the MRC Laboratories in Fajara and Farafenni for their help.
+We thank Dr Palle Hoy Jakobsen and Dr Tony Holder for providing
+malaria antigens and Dr Steve Bennett for statistical advice. This study
+received financial support from the UNDP/World Bank/WHO Special
+Programme for Research and Training in Tropical Diseases.
+REFERENCES
+1 Weidanz WP. Malaria and alterations in immune reactivity. Br Med
+Bull 1982; 38:167-72.
+2 Wyler DJ. Peripheral lymphocyte populations in human falciparum
+malaria. Clin Exp Immunol 1976; 23:471-6.
+3 Wells RA, Pavanand K, Zolyomi S, Permpanich B, MacDermott
+RP. Loss of circulating T lymphocytes with normal levels of B and
+"null" lymphocytes in Thai adults with malaria. Clin Exp Immunol
+1979; 35:202-9.
+4 Hviid L, Theander TG, Abu-Zeid YA et al. Loss of cellular immune
+reactivity during acute Plasmodium falciparum malaria. FEMS
+Microbiol Immunol 1991; 3:219-28.
+5 Theander TG, Bygbjerg IC, Anderson BJ, Jepsen S, Kharazmi A,
+0dum N. Suppression of parasite specific response in Plasmodium
+falciparum malaria. A longitudinal study of blood mononuclear cell
+proliferation and subset composition. Scand J Immunol 1986;
+24:73-81.
+6 Riley EM, Andersson G, Otoo LN, Jepsen S, Greenwood BM.
+Cellular immune responses to Plasmodium falciparum antigens in
+Gambian children during and after an attack of acute falciparum
+malaria. Clin Exp Immunol 1988; 73:17-22.
+7 Ho M, Webster HK, Looareesuwan S, Supanaranond W, Phillips
+RE, Chanthavanich P, Warrell DA. Antigen-specific immunosup-
+pression in human malaria due to Plasmodiumfalciparum. J Inf Dis
+1986; 153:763-71.
+8 Kumararatne DS, Phillips RS. Sinclair D, Parrott DMV, Forrester
+JB. Lymphocyte migration in murine malaria during the primary
+patent parasitaemia of Plasmodium chabaudi infections. Clin Exp
+Immunol 1987; 68:65-77.
+9 Hviid L, Theander TG, Abdulhadi NH, Abu-Zeid YA, Bayoumi
+RA, Jensen JB. Transient depletion of T cells with high LFA-l
+expression from peripheral circulation during acute Plasmodium
+falciparum malaria. Eur J Immunol 1991; 21:1249-53.
+10 Kremsner P. Bienzle U. Soluble CD8 antigen in Plasmodium
+falciparum malaria. J Inf Dis 1989; 160:357-8.
+11 Riley EM, MacLennan C, Kwiatkowski D, Greenwood BM.
+Suppression of in vitro lymphoproliferative responses in acute
+malaria patients can be partially reversed by indomethacin. Parasite
+Immunol 1989; 11:509-17.
+12 Smith KA. T cell growth factor. Immunol Rev 1980; 51:337-57.
+13 Leonard WJ, Depper JM, Robb RJ, Waldmann TA, Greene WC.
+Characterisation of the human receptor for T cell growth factor.
+Proc Natl Acad Sci USA 1983; 80:6957-61.
+14 Cantrell DA, Smith KA. The interleukin-2 T cell system: a new cell
+growth model. Science 1984; 224:1312-6.
+15 Rubin LA, Kurman CC, Fritz ME, Biddis WE, Boutin B, Yarchoan
+R, Nelson DL. Soluble interleukin-2 receptors are released from
+activated human lymphocytes in vitro. J Immunol 1985; 135:3172-7.
+16 Nelson DL. Soluble interleukin-2 receptors: analysis in normal
+individuals and in certain disease states. Fed Proc 1986; 45:377.
+17 MacKeen L, Brown M, Ip SH et al. Serum interleukin-2 receptor as a
+marker for active T cell malignancies. Fed Proc 1986; 45:454.
+18 Josimovic-Alasevic 0, Feldmeier H, Zwingenberger K, Harma G,
+Hahn H, Shrisuphanunt M, Diamantstein T. Interleukin-2 receptor
+in patients with localised and systemic parasitic diseases. Clin Exp
+Immunol 1988; 72:249-54.
+19 Nguyen-Dinh P. Greenberg AE. Increased levels of released inter-
+leukin-2 receptors in Plasmodiumfalciparum malaria. J Inf Dis 1988;
+158:1403-4.
+20 Ho M, Webster HK, Green B, Looareesuwan S, Kongchareon S,
+White NJ. Defective production of and response to IL-2 in acute
+human falciparum malaria. J Immunol 1988; 141:2755-9.
+21 Deloron P, Lepers JP, Coulanges P. Evolution of the levels of soluble
+interleukin-2 receptors during Plasmodium falciparum
