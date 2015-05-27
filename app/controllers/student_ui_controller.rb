@@ -35,9 +35,9 @@ class StudentUiController < ApplicationController
 
   def my_profile
       @student = Student.find_by_student_number(session[:student_id])
-      @courses = CourseToStudent.find_by_sql 'SELECT c.name AS course_name
-                                              FROM courses c, course_to_students cts
-                                              WHERE cts.course_no = c.no and cts.student_no = ' + session[:student_id]
+      #@courses = CourseToStudent.find_by_sql 'SELECT c.name AS course_name
+      #                                        FROM courses c, course_to_students cts
+      #                                        WHERE cts.course_no = c.no and cts.student_no = ' + session[:student_id]
   end
 
   def edit_profile
